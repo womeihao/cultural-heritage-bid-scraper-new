@@ -37,6 +37,11 @@ function showView(viewName) {
   viewProvince.classList.toggle("active", viewName === "province");
   viewMuseum.classList.toggle("active", viewName === "museum");
   updateBreadcrumb();
+
+  // 通知 chat.js 视图已切换
+  window.dispatchEvent(new CustomEvent("viewChanged", {
+    detail: { view: viewName, province: AppState.currentProvince, museum: AppState.currentMuseum }
+  }));
 }
 
 function updateBreadcrumb() {
