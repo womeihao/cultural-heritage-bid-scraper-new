@@ -1,0 +1,35 @@
+{
+  "museum": "四川博物院",
+  "province": "四川",
+  "city": "四川省",
+  "projects": [
+    {
+      "title": "四川博物院文物档案数字化及藏品管理系统提升项目中标（成交）结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202606/t20260609_26713677.htm",
+      "date": "2026/6/9",
+      "amount": 63.54,
+      "supplier": "四川省商投信息技术有限责任公司",
+      "supplier_addr": "四川省成都市青羊区北打铜街8号新时代广场B座3楼",
+      "agent": "四川中天阳光招标代理有限公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "四川博物院馆藏万佛寺石刻珍贵文物数字化保护服务项目竞争性磋商成交公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202309/t20230914_20706250.htm",
+      "date": "2023/9/14",
+      "amount": 248.6,
+      "supplier": "成都云天文保科技有限公司",
+      "supplier_addr": "四川省成都市金牛区金府路88号",
+      "agent": "四川乾新招投标代理有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

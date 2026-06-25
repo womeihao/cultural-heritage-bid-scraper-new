@@ -1,0 +1,29 @@
+{
+  "province": "上海",
+  "total_projects": 6,
+  "total_amount": 2365.21,
+  "total_museums": 5,
+  "total_suppliers": 4,
+  "museums": [
+    "上海外国语大学",
+    "上海科技馆",
+    "上海自然博物馆（上海科技馆分馆）",
+    "中国共产党第一次全国代表大会纪念馆",
+    "奉贤区博物馆"
+  ],
+  "year_data": {
+    "2025": {
+      "count": 1,
+      "amount": 950.5
+    },
+    "2024": {
+      "count": 4,
+      "amount": 1400.81
+    },
+    "2023": {
+      "count": 1,
+      "amount": 13.9
+    }
+  },
+  "tag_distribution": {}
+}

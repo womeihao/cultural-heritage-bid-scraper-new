@@ -1,0 +1,35 @@
+{
+  "museum": "义乌市博物馆",
+  "province": "浙江",
+  "city": "浙江省",
+  "projects": [
+    {
+      "title": "浙江至诚工程咨询有限责任公司关于义乌市博物馆可移动文物数字化保护采购项目中标(成交)结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202411/t20241119_23653193.htm",
+      "date": "2024/11/19",
+      "amount": 108.57,
+      "supplier": "珠海市四维时代网络科技有限公司",
+      "supplier_addr": "珠海市高新区唐家湾镇金唐路1号港湾1号科创园2栋2-101-2",
+      "agent": "浙江至诚工程咨询有限责任公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "浙江至诚工程咨询有限责任公司关于义乌市博物馆可移动文物数字化保护采购项目的更正公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202410/t20241031_23501316.htm",
+      "date": "2024/10/31",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "浙江至诚工程咨询有限责任公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

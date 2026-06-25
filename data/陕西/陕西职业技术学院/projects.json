@@ -1,0 +1,35 @@
+{
+  "museum": "陕西职业技术学院",
+  "province": "陕西",
+  "city": "陕西省",
+  "projects": [
+    {
+      "title": "陕西职业技术学院智慧文旅实训基地、文物数字化修复中心装修项目中标（成交）结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202401/t20240103_21379752.htm",
+      "date": "2024/1/3",
+      "amount": 77.24,
+      "supplier": "陕西荣赛建设有限公司",
+      "supplier_addr": "陕西省西安市雁塔区朱雀南路南飞鸿广场6号楼0725室",
+      "agent": "四川国际招标有限责任公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "陕西职业技术学院智慧文旅实训基地、文物数字化修复中心装修项目采购更正公告（第一次）",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202312/t20231227_21350320.htm",
+      "date": "2023/12/27",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "四川国际招标有限责任公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

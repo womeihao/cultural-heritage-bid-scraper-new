@@ -1,0 +1,49 @@
+{
+  "museum": "四川大学",
+  "province": "四川",
+  "city": "四川省",
+  "projects": [
+    {
+      "title": "四川大学纸质文物高清数字扫描公开招标更正公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/gzgg/202409/t20240923_23211817.htm",
+      "date": "2024/9/23",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "四川国际招标有限责任公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "四川大学博物馆物业管理服务采购项目更正公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202404/t20240416_21842033.htm",
+      "date": "2024/4/16",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "四川金剑工程造价咨询审计招投标代理有限公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "四川大学纸质文物高清数字扫描公开招标中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202410/t20241021_23417852.htm",
+      "date": "2024/10/21",
+      "amount": 198.0,
+      "supplier": "南京轩恩软件开发有限公司",
+      "supplier_addr": "南京市栖霞区仙林街道文枢东路2号商住综合楼4楼406室",
+      "agent": "四川国际招标有限责任公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

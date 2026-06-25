@@ -1,0 +1,49 @@
+{
+  "museum": "重庆红岩联线文化发展管理中心",
+  "province": "重庆",
+  "city": "重庆市",
+  "projects": [
+    {
+      "title": "重庆红岩革命历史博物馆馆藏革命文物数字化保护项目（第二次）(CQS23C00873)流标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202309/t20230906_20649989.htm",
+      "date": "2023/9/6",
+      "amount": 0.0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "重庆渝开洋工程管理咨询有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "重庆红岩革命历史博物馆馆藏革命文物数字化保护项目(CQS23C00873)流标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202308/t20230808_20459230.htm",
+      "date": "2023/8/8",
+      "amount": 0.0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "重庆渝开洋工程管理咨询有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "重庆红岩革命历史博物馆馆藏革命文物数字化保护(CQS23C00873)中标（成交）结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202311/t20231116_21088664.htm",
+      "date": "2023/11/16",
+      "amount": 539.0,
+      "supplier": "中国文物信息咨询中心",
+      "supplier_addr": "北京市朝阳区北四环高原街甲2号",
+      "agent": "重庆市政府采购中心",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

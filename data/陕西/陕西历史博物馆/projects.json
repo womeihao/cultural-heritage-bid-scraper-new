@@ -1,0 +1,35 @@
+{
+  "museum": "陕西历史博物馆",
+  "province": "陕西",
+  "city": "陕西省",
+  "projects": [
+    {
+      "title": "陕西历史博物馆“唐代技艺”系列虚拟仿真教育课程开发项目(二次)中标（成交）结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202511/t20251114_25701294.htm",
+      "date": "2025/11/14",
+      "amount": 99.0,
+      "supplier": "北京灌木互娱文化科技有限公司",
+      "supplier_addr": "北京市朝阳区酒仙桥路10号院35号楼3层3108室",
+      "agent": "龙寰项目管理咨询有限公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "陕西历史博物馆场馆设备更新及配套工程项目设计中标（成交）结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202501/t20250126_24123106.htm",
+      "date": "2025/1/26",
+      "amount": 195.0,
+      "supplier": "中国建筑西北设计研究院有限公司",
+      "supplier_addr": "西安市经济技术开发区文景路中段98号",
+      "agent": "陕西省采购招标有限责任公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

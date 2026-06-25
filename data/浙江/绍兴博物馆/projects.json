@@ -1,0 +1,35 @@
+{
+  "museum": "绍兴博物馆",
+  "province": "浙江",
+  "city": "浙江省",
+  "projects": [
+    {
+      "title": "绍兴虬实企业管理咨询有限公司关于可移动文物数字化保护利用项目中标(成交)结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202408/t20240828_23007664.htm",
+      "date": "2024/8/28",
+      "amount": 187.9,
+      "supplier": "甘肃恒真数字文化科技有限公司",
+      "supplier_addr": "甘肃省兰州市城关区南滨河东路522号",
+      "agent": "绍兴虬实企业管理咨询有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "耀华建设管理有限公司关于绍兴博物馆可移动文物数字化保护利用项目的更正公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202404/t20240419_21869326.htm",
+      "date": "2024/4/19",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "耀华建设管理有限公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

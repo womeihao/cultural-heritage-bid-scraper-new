@@ -1,0 +1,35 @@
+{
+  "museum": "四川广汉三星堆博物馆",
+  "province": "四川",
+  "city": "广汉市",
+  "projects": [
+    {
+      "title": "四川广汉三星堆博物馆大阪世博会中国馆三星堆展项文物复制品制作采购项目中标（成交）结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202501/t20250121_24098206.htm",
+      "date": "2025/1/21",
+      "amount": 118.7,
+      "supplier": "北京鉴衡文物修复中心",
+      "supplier_addr": "北京市东城区东直门内北小街2号楼415室",
+      "agent": "四川丰瑞招标代理有限公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "四川广汉三星堆博物馆三星堆博物馆智慧博物馆云服务采购项目中标（成交）结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202412/t20241220_23917906.htm",
+      "date": "2024/12/20",
+      "amount": 85.47,
+      "supplier": "腾讯云计算",
+      "supplier_addr": "北京市海淀区西北旺东路10号院西区9号楼4层101",
+      "agent": "广汉市公共资源交易服务中心（广汉市政府采购中心）",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

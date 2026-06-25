@@ -1,0 +1,35 @@
+{
+  "museum": "新疆维吾尔自治区文物考古研究所",
+  "province": "新疆",
+  "city": "新疆维吾尔自治区",
+  "projects": [
+    {
+      "title": "新疆维吾尔自治区文物考古研究所数字考古成果展示中心及空间考古实验室支撑环境配置项目中标(成交)结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202606/t20260603_26681985.htm",
+      "date": "2026/6/3",
+      "amount": 158.9,
+      "supplier": "陕西十月文物保护有限公司",
+      "supplier_addr": "西安曲江新区汇新路以东曲江国际金融中心第1幢1单元17层11706房",
+      "agent": "新疆维吾尔自治区政务服务和公共资源交易中心",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "新疆库车苏巴什佛寺遗址跟随性数字化及洞窟数字化采集服务项目中标(成交)结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202507/t20250731_25079922.htm",
+      "date": "2025/7/31",
+      "amount": 71.36,
+      "supplier": "西安星讯智能通信科技有限公司",
+      "supplier_addr": "西安曲江新区雁南五路曲江环球中心1006室",
+      "agent": "新疆君凯杰工程项目管理有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

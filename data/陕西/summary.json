@@ -1,0 +1,26 @@
+{
+  "province": "陕西",
+  "total_projects": 4,
+  "total_amount": 371.24,
+  "total_museums": 2,
+  "total_suppliers": 3,
+  "museums": [
+    "陕西历史博物馆",
+    "陕西职业技术学院"
+  ],
+  "year_data": {
+    "2025": {
+      "count": 2,
+      "amount": 294.0
+    },
+    "2024": {
+      "count": 1,
+      "amount": 77.24
+    },
+    "2023": {
+      "count": 1,
+      "amount": 0
+    }
+  },
+  "tag_distribution": {}
+}

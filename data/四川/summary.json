@@ -1,0 +1,33 @@
+{
+  "province": "四川",
+  "total_projects": 10,
+  "total_amount": 993.59,
+  "total_museums": 5,
+  "total_suppliers": 6,
+  "museums": [
+    "四川博物院",
+    "四川大学",
+    "四川广汉三星堆博物馆",
+    "四川省夕佳山民俗博物馆",
+    "四川省文物考古研究院（三星堆研究院、四川石窟寺保护研究院）"
+  ],
+  "year_data": {
+    "2026": {
+      "count": 1,
+      "amount": 63.54
+    },
+    "2025": {
+      "count": 4,
+      "amount": 397.97999999999996
+    },
+    "2024": {
+      "count": 4,
+      "amount": 283.47
+    },
+    "2023": {
+      "count": 1,
+      "amount": 248.6
+    }
+  },
+  "tag_distribution": {}
+}

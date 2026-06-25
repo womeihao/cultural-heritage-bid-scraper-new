@@ -1,0 +1,35 @@
+{
+  "museum": "中国共产党第一次全国代表大会纪念馆",
+  "province": "上海",
+  "city": "上海市",
+  "projects": [
+    {
+      "title": "中共一大纪念馆珍贵文物数字化保护与展示利用（二期）的中标（成交）结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250418_24468021.htm",
+      "date": "2025/4/18",
+      "amount": 950.5,
+      "supplier": "北京航天长峰科技工业集团有限公司",
+      "supplier_addr": "北京市海淀区永定路甲51号航天长峰大楼",
+      "agent": "上海沪港建设咨询有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "中共一大纪念馆珍贵文物数字化保护与展示利用（一期）的中标（成交）结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202405/t20240517_22137265.htm",
+      "date": "2024/5/17",
+      "amount": 1142.66,
+      "supplier": "北京航天长峰科技工业集团有限公司",
+      "supplier_addr": "北京市海淀区永定路50号",
+      "agent": "上海沪港建设咨询有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}
