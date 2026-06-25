@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文物数字化 — 历史分析系统</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+</head>
+<body>
+
+<!-- 顶部导航栏 -->
+<header id="top-bar">
+  <div class="bar-inner">
+    <div class="bar-left">
+      <h1 class="logo" id="home-btn">🏛️ 文物数字化分析</h1>
+      <nav id="breadcrumb">
+        <span class="crumb active" data-view="national">全国概览</span>
+      </nav>
+    </div>
+    <div class="bar-right">
+      <span id="update-time" class="update-info">数据更新: —</span>
+      <button id="refresh-btn" class="btn-icon" title="刷新数据">🔄</button>
+    </div>
+  </div>
+</header>
+
+<!-- L1: 省份概览 (首页默认) -->
+<main id="view-national" class="view active">
+  <!-- 概览卡片区 -->
+  <section id="stats-row" class="stats-row">
+    <div class="stat-card"><div class="stat-value" id="stat-projects">—</div><div class="stat-label">总项目数</div></div>
+    <div class="stat-card"><div class="stat-value" id="stat-amount">—</div><div class="stat-label">总中标金额(万)</div></div>
+    <div class="stat-card"><div class="stat-value" id="stat-museums">—</div><div class="stat-label">涉及博物馆</div></div>
+    <div class="stat-card"><div class="stat-value" id="stat-suppliers">—</div><div class="stat-label">活跃供应商</div></div>
+  </section>
+
+  <!-- 省份卡片网格 -->
+  <section id="province-grid" class="province-grid">
+    <!-- JS动态渲染 -->
+  </section>
+</main>
+
+<!-- L2: 省份详情 (博物馆列表 + 图表 + Gap) -->
+<main id="view-province" class="view">
+  <div class="province-header">
+    <h2 id="prov-title">—</h2>
+    <div class="province-stats-row">
+      <div class="stat-card small"><div class="stat-value" id="pstat-projects">—</div><div class="stat-label">项目数</div></div>
+      <div class="stat-card small"><div class="stat-value" id="pstat-amount">—</div><div class="stat-label">总金额(万)</div></div>
+      <div class="stat-card small"><div class="stat-value" id="pstat-museums">—</div><div class="stat-label">博物馆数</div></div>
+      <div class="stat-card small"><div class="stat-value" id="pstat-suppliers">—</div><div class="stat-label">供应商数</div></div>
+    </div>
+  </div>
+
+  <!-- 标签页 -->
+  <div class="province-tabs">
+    <button class="tab-btn active" data-tab="tab-dashboard">📊 仪表盘</button>
+    <button class="tab-btn" data-tab="tab-museums">🏛️ 博物馆列表</button>
+    <button class="tab-btn" data-tab="tab-gap">🎯 Gap分析</button>
+  </div>
+
+  <!-- 仪表盘标签页 -->
+  <section id="tab-dashboard" class="tab-panel active">
+    <div class="charts-grid">
+      <div class="chart-box"><div id="chart-pie" class="chart-canvas"></div></div>
+      <div class="chart-box"><div id="chart-radar" class="chart-canvas"></div></div>
+      <div class="chart-box wide"><div id="chart-bar" class="chart-canvas"></div></div>
+      <div class="chart-box wide"><div id="chart-top" class="chart-canvas"></div></div>
+    </div>
+  </section>
+
+  <!-- 博物馆列表标签页 -->
+  <section id="tab-museums" class="tab-panel">
+    <div class="museum-controls">
+      <input type="text" id="museum-search" placeholder="搜索博物馆名称或城市…" class="search-input">
+      <select id="museum-sort" class="sort-select">
+        <option value="projects-desc">项目数 ↓</option>
+        <option value="amount-desc">金额 ↓</option>
+        <option value="name-asc">名称 ↑</option>
+      </select>
+    </div>
+    <div class="museum-table-wrap">
+      <table id="museum-table" class="data-table">
+        <thead>
+          <tr>
+            <th>博物馆名称</th><th>级别</th><th>城市</th>
+            <th>项目数</th><th>总金额</th><th>主要业务类型</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Gap分析标签页 -->
+  <section id="tab-gap" class="tab-panel">
+    <div class="gap-sections">
+      <div class="gap-section digitalized">
+        <h3>🟢 已数字化博物馆 (<span id="gap-digitalized-count">0</span>)</h3>
+        <div id="gap-digitalized-list" class="gap-list"></div>
+      </div>
+      <div class="gap-section uncertain">
+        <h3>🟡 待确认 (<span id="gap-uncertain-count">0</span>)</h3>
+        <div id="gap-uncertain-list" class="gap-list"></div>
+      </div>
+      <div class="gap-section gap-target">
+        <h3>🔴 Gap目标 — 商务拓展机会 (<span id="gap-target-count">0</span>)</h3>
+        <div id="gap-target-list" class="gap-list"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- L3: 博物馆详情 -->
+<main id="view-museum" class="view">
+  <div class="museum-header">
+    <button class="btn-back" id="back-to-province">← 返回省份</button>
+    <h2 id="museum-title">—</h2>
+  </div>
+  <div class="museum-info-card" id="museum-info">
+    <!-- JS动态渲染 -->
+  </div>
+
+  <div class="project-controls">
+    <input type="text" id="project-search" placeholder="搜索项目标题…" class="search-input">
+    <select id="project-tag-filter" class="sort-select">
+      <option value="">全部类型</option>
+    </select>
+    <select id="project-sort" class="sort-select">
+      <option value="amount-desc">金额 ↓</option>
+      <option value="date-desc">时间 ↓</option>
+      <option value="title-asc">标题 ↑</option>
+    </select>
+  </div>
+
+  <div class="project-table-wrap">
+    <table id="project-table" class="data-table">
+      <thead>
+        <tr>
+          <th>标题</th><th>金额</th><th>供应商</th>
+          <th>业务类型</th><th>发布时间</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- 项目详情卡片(点击行展开) -->
+  <div id="project-detail" class="project-detail hidden">
+    <div class="detail-inner" id="project-detail-content"></div>
+  </div>
+</main>
+
+<!-- 加载/错误状态 -->
+<div id="loading" class="loading hidden">加载中…</div>
+<div id="toast" class="toast hidden"></div>
+
+<!-- AI悬浮球 (由 chat.js 创建) -->
+<div id="chat-bubble"></div>
+
+<script type="module" src="js/utils.js"></script>
+<script type="module" src="js/app.js"></script>
+<script type="module" src="js/charts.js"></script>
+<script type="module" src="js/chat.js"></script>
+</body>
+</html>

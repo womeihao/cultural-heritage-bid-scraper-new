@@ -1,0 +1,297 @@
+/* ═══ Heritage Analysis — 样式表 ═══ */
+
+/* ─── Reset & Base ─── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+  background: #f5f6fa; color: #2c3e50; line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ─── Top Bar ─── */
+#top-bar {
+  position: sticky; top: 0; z-index: 100;
+  background: #1a1a2e; color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+.bar-inner {
+  max-width: 1400px; margin: 0 auto; padding: 0 24px;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 56px;
+}
+.bar-left { display: flex; align-items: center; gap: 32px; }
+.logo { font-size: 1.1rem; font-weight: 600; cursor: pointer; user-select: none; }
+.logo:hover { opacity: .85; }
+#breadcrumb { display: flex; gap: 8px; font-size: .88rem; }
+.crumb { color: #a0a0b0; cursor: pointer; }
+.crumb:hover { color: #fff; }
+.crumb.active { color: #fff; font-weight: 600; }
+.crumb::after { content: " › "; color: #555; }
+.crumb:last-child::after { content: ""; }
+.bar-right { display: flex; align-items: center; gap: 16px; }
+.update-info { font-size: .82rem; color: #888; }
+.btn-icon {
+  background: none; border: 1px solid #444; color: #ccc;
+  padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: .9rem;
+}
+.btn-icon:hover { background: #333; color: #fff; }
+
+/* ─── View Switching ─── */
+.view { display: none; }
+.view.active { display: block; }
+
+/* ─── Stats Row (L1) ─── */
+.stats-row {
+  max-width: 1400px; margin: 24px auto 0; padding: 0 24px;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+}
+.stat-card {
+  background: #fff; border-radius: 8px; padding: 20px;
+  text-align: center; box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.stat-value { font-size: 2rem; font-weight: 700; color: #1a5276; }
+.stat-label { font-size: .82rem; color: #888; margin-top: 4px; }
+.stat-card.small { padding: 14px 12px; }
+.stat-card.small .stat-value { font-size: 1.4rem; }
+
+/* ─── Province Grid (L1) ─── */
+.province-grid {
+  max-width: 1400px; margin: 20px auto 40px; padding: 0 24px;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+.province-card {
+  background: #fff; border-radius: 8px; padding: 20px;
+  cursor: pointer; transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06); border-left: 4px solid transparent;
+}
+.province-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,.1);
+  border-left-color: #2980b9;
+}
+.province-card h3 { font-size: 1.05rem; margin-bottom: 8px; }
+.province-card .card-meta { font-size: .82rem; color: #777; }
+.province-card .card-meta span { margin-right: 16px; }
+.province-card .card-amount { font-weight: 600; color: #c0392b; }
+
+/* ─── Province Header (L2) ─── */
+.province-header {
+  max-width: 1400px; margin: 24px auto 0; padding: 0 24px;
+}
+.province-header h2 { font-size: 1.3rem; margin-bottom: 12px; }
+.province-stats-row {
+  display: flex; gap: 16px; flex-wrap: wrap;
+}
+
+/* ─── Tabs ─── */
+.province-tabs {
+  max-width: 1400px; margin: 16px auto 0; padding: 0 24px;
+  display: flex; gap: 8px; border-bottom: 2px solid #e0e0e0;
+}
+.tab-btn {
+  padding: 10px 20px; border: none; background: none;
+  font-size: .9rem; cursor: pointer; color: #666;
+  border-bottom: 2px solid transparent; margin-bottom: -2px;
+  transition: color .2s, border-color .2s;
+}
+.tab-btn:hover { color: #2980b9; }
+.tab-btn.active { color: #2980b9; border-bottom-color: #2980b9; font-weight: 600; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ─── Charts Grid (L2 Dashboard) ─── */
+.charts-grid {
+  max-width: 1400px; margin: 16px auto 0; padding: 0 24px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+}
+.chart-box {
+  background: #fff; border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06); padding: 16px;
+  min-height: 300px;
+}
+.chart-box.wide { grid-column: span 2; min-height: 320px; }
+.chart-canvas { width: 100%; height: 300px; }
+.chart-box.wide .chart-canvas { height: 320px; }
+
+/* ─── Museum Table (L2) ─── */
+.museum-controls {
+  max-width: 1400px; margin: 16px auto 0; padding: 0 24px;
+  display: flex; gap: 12px;
+}
+.search-input {
+  flex: 1; padding: 8px 14px; border: 1px solid #ddd;
+  border-radius: 6px; font-size: .9rem;
+}
+.search-input:focus { outline: none; border-color: #2980b9; }
+.sort-select {
+  padding: 8px 12px; border: 1px solid #ddd;
+  border-radius: 6px; font-size: .9rem; background: #fff;
+}
+.museum-table-wrap {
+  max-width: 1400px; margin: 12px auto 0; padding: 0 24px;
+  overflow-x: auto;
+}
+
+/* ─── Tables ─── */
+.data-table {
+  width: 100%; border-collapse: collapse; background: #fff;
+  border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.data-table th {
+  background: #ebf5fb; padding: 10px 14px; text-align: left;
+  font-size: .82rem; font-weight: 600; white-space: nowrap;
+  cursor: pointer; user-select: none;
+}
+.data-table th:hover { background: #d4e6f1; }
+.data-table th .sort-arrow { margin-left: 4px; font-size: .7rem; }
+.data-table td { padding: 10px 14px; border-top: 1px solid #eee; font-size: .88rem; }
+.data-table tr:hover { background: #f8f9fa; }
+.data-table tr.clickable { cursor: pointer; }
+.data-table tr.expanded { background: #eaf2f8; }
+
+/* ─── Tag Badges ─── */
+.tag-badge {
+  display: inline-block; padding: 2px 8px; border-radius: 4px;
+  font-size: .75rem; font-weight: 500; margin-right: 4px; margin-bottom: 2px;
+  white-space: nowrap;
+}
+.tag-empty { color: #ccc; font-size: .82rem; }
+
+/* ─── Museum View (L3) ─── */
+.museum-header {
+  max-width: 1400px; margin: 24px auto 0; padding: 0 24px;
+  display: flex; align-items: center; gap: 16px;
+}
+.btn-back {
+  padding: 6px 16px; background: #fff; border: 1px solid #ddd;
+  border-radius: 6px; cursor: pointer; font-size: .88rem;
+}
+.btn-back:hover { background: #f0f0f0; }
+.museum-info-card {
+  max-width: 1400px; margin: 16px auto 0; padding: 20px 24px;
+  background: #fff; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.06);
+  display: flex; flex-wrap: wrap; gap: 20px;
+}
+.museum-info-card .info-item { min-width: 160px; }
+.museum-info-card .info-label { font-size: .78rem; color: #999; }
+.museum-info-card .info-value { font-size: 1rem; font-weight: 500; margin-top: 4px; }
+
+/* ─── Project Controls (L3) ─── */
+.project-controls {
+  max-width: 1400px; margin: 16px auto 0; padding: 0 24px;
+  display: flex; gap: 12px; flex-wrap: wrap;
+}
+
+/* ─── Project Detail ─── */
+.project-detail {
+  max-width: 1400px; margin: 16px auto 0; padding: 0 24px;
+}
+.project-detail.hidden { display: none; }
+.detail-inner {
+  background: #fff; border-radius: 8px; padding: 20px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08); border-left: 3px solid #2980b9;
+}
+.detail-inner p { margin-bottom: 8px; font-size: .9rem; }
+.detail-inner .detail-label { font-weight: 600; color: #555; margin-right: 8px; }
+.detail-inner .detail-link { color: #2980b9; word-break: break-all; }
+
+/* ─── Gap Tabs (L2) ─── */
+.gap-sections {
+  max-width: 1400px; margin: 16px auto 0; padding: 0 24px;
+  display: grid; gap: 20px;
+}
+.gap-section { background: #fff; border-radius: 8px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+.gap-section h3 { font-size: .95rem; margin-bottom: 12px; }
+.gap-section.digitalized h3 { color: #27ae60; }
+.gap-section.uncertain h3 { color: #f39c12; }
+.gap-section.gap-target h3 { color: #c0392b; }
+.gap-list { max-height: 400px; overflow-y: auto; }
+.gap-item {
+  padding: 8px 12px; border-bottom: 1px solid #eee;
+  font-size: .85rem; display: flex; align-items: center; gap: 12px;
+}
+.gap-item:last-child { border-bottom: none; }
+.gap-item .gap-name { flex: 1; }
+.gap-item .gap-meta { color: #888; font-size: .78rem; }
+.gap-item .gap-btn {
+  padding: 4px 10px; border: 1px solid #ddd; border-radius: 4px;
+  background: #fff; cursor: pointer; font-size: .78rem;
+}
+.gap-item .gap-btn:hover { background: #e8f5e9; border-color: #27ae60; }
+
+/* ─── AI Float (悬浮球) ─── */
+#chat-bubble { position: fixed; z-index: 9999; pointer-events: none; }
+/* 悬浮球/面板内部通过pointer-events:auto启用交互 */
+.chat-ball, .chat-panel { pointer-events: auto; }
+.chat-ball {
+  width: 48px; height: 48px; border-radius: 50%;
+  background: #2980b9; color: #fff; display: flex; align-items: center;
+  justify-content: center; font-size: 1.3rem; cursor: grab;
+  box-shadow: 0 4px 16px rgba(0,0,0,.2); transition: opacity .2s;
+  opacity: .85;
+}
+.chat-ball:hover { opacity: 1; background: #2471a3; }
+.chat-ball.dragging { cursor: grabbing; opacity: 1; }
+.chat-panel {
+  width: 380px; height: 480px; background: #fff; border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0,0,0,.15); display: flex; flex-direction: column;
+  overflow: hidden;
+}
+.chat-panel.hidden { display: none; }
+.chat-titlebar {
+  padding: 10px 14px; background: #1a5276; color: #fff;
+  display: flex; align-items: center; justify-content: space-between;
+  cursor: grab; font-size: .88rem; user-select: none;
+}
+.chat-titlebar.dragging { cursor: grabbing; }
+.chat-titlebar .chat-actions { display: flex; gap: 6px; }
+.chat-titlebar .chat-actions button {
+  background: rgba(255,255,255,.2); border: none; color: #fff;
+  width: 28px; height: 28px; border-radius: 4px; cursor: pointer; font-size: .85rem;
+}
+.chat-titlebar .chat-actions button:hover { background: rgba(255,255,255,.35); }
+.chat-messages {
+  flex: 1; overflow-y: auto; padding: 12px; display: flex; flex-direction: column;
+  gap: 10px;
+}
+.chat-msg { max-width: 85%; padding: 8px 12px; border-radius: 10px; font-size: .85rem; line-height: 1.5; word-break: break-word; }
+.chat-msg.user { align-self: flex-end; background: #d4e6f1; }
+.chat-msg.assistant { align-self: flex-start; background: #f0f0f0; }
+.chat-msg.system { align-self: center; background: #fef5e7; font-size: .78rem; color: #888; }
+.chat-msg .msg-time { font-size: .68rem; color: #aaa; margin-top: 4px; }
+.chat-input-box { padding: 10px; border-top: 1px solid #eee; display: flex; gap: 8px; }
+.chat-input-box input {
+  flex: 1; padding: 8px 12px; border: 1px solid #ddd;
+  border-radius: 6px; font-size: .88rem;
+}
+.chat-input-box input:focus { outline: none; border-color: #2980b9; }
+.chat-input-box button {
+  padding: 8px 16px; background: #2980b9; color: #fff; border: none;
+  border-radius: 6px; cursor: pointer; font-size: .88rem;
+}
+.chat-input-box button:hover { background: #2471a3; }
+.chat-input-box button:disabled { background: #ccc; cursor: not-allowed; }
+
+/* ─── Loading / Toast ─── */
+.loading {
+  text-align: center; padding: 40px; font-size: 1rem; color: #888;
+}
+.loading.hidden { display: none; }
+.toast {
+  position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+  padding: 10px 24px; border-radius: 8px; font-size: .88rem; z-index: 10000;
+  background: #333; color: #fff; box-shadow: 0 4px 16px rgba(0,0,0,.2);
+  transition: opacity .3s;
+}
+.toast.hidden { display: none; }
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+  .province-grid { grid-template-columns: 1fr; }
+  .charts-grid { grid-template-columns: 1fr; }
+  .chart-box.wide { grid-column: span 1; }
+  .bar-left { gap: 12px; }
+  .chat-panel { width: 100vw; height: 60vh; border-radius: 0; }
+}
