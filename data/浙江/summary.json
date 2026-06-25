@@ -27,5 +27,124 @@
       "amount": 889.6199999999999
     }
   },
-  "tag_distribution": {}
+  "tag_distribution": {
+    "数字归档": 12,
+    "数字保护": 11
+  },
+  "museum_details": {
+    "义乌市博物馆": {
+      "count": 2,
+      "amount": 108.57,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "台州市黄岩区博物馆": {
+      "count": 1,
+      "amount": 82.6,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "天台县文化和广电旅游体育局": {
+      "count": 1,
+      "amount": 134.5,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": []
+    },
+    "平湖市李叔同纪念馆": {
+      "count": 1,
+      "amount": 34.82,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "景德镇中国陶瓷博物馆": {
+      "count": 1,
+      "amount": 149.8,
+      "suppliers": 1,
+      "city": "市辖区",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "杭州市临安区吴越国衣锦城考古遗址公园管理局": {
+      "count": 1,
+      "amount": 145.32,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "武义县博物馆": {
+      "count": 2,
+      "amount": 134.1,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "浙江省文物考古研究所（浙江省世界文化遗产监测中心）": {
+      "count": 1,
+      "amount": 104.78,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": []
+    },
+    "绍兴博物馆": {
+      "count": 2,
+      "amount": 187.9,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "绍兴市柯桥区博物馆": {
+      "count": 1,
+      "amount": 91.98,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "苍南县博物馆": {
+      "count": 1,
+      "amount": 134.67,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    }
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "province": "重庆",
+  "total_projects": 4,
+  "total_amount": 902.8,
+  "total_museums": 2,
+  "total_suppliers": 2,
+  "museums": [
+    "重庆中国三峡博物馆",
+    "重庆红岩联线文化发展管理中心"
+  ],
+  "year_data": {
+    "2024": {
+      "count": 1,
+      "amount": 363.8
+    },
+    "2023": {
+      "count": 3,
+      "amount": 539.0
+    }
+  },
+  "tag_distribution": {}
+}

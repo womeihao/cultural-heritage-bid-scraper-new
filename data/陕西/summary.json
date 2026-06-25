@@ -22,5 +22,34 @@
       "amount": 0
     }
   },
-  "tag_distribution": {}
+  "tag_distribution": {
+    "数字孪生": 1,
+    "数字归档": 2,
+    "藏品管理": 2,
+    "智慧博物馆": 2
+  },
+  "museum_details": {
+    "陕西历史博物馆": {
+      "count": 2,
+      "amount": 294.0,
+      "suppliers": 2,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字孪生"
+      ]
+    },
+    "陕西职业技术学院": {
+      "count": 2,
+      "amount": 77.24,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "藏品管理",
+        "智慧博物馆"
+      ]
+    }
+  }
 }

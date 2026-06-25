@@ -1,15 +1,40 @@
 {
   "province": "四川",
   "generated_at": "2026-06-25T13:29:15.955530",
-  "pie": [],
+  "pie": [
+    {
+      "name": "数字归档",
+      "value": 5
+    },
+    {
+      "name": "数字保护",
+      "value": 2
+    },
+    {
+      "name": "三维扫描",
+      "value": 2
+    },
+    {
+      "name": "GIS制图",
+      "value": 2
+    },
+    {
+      "name": "藏品管理",
+      "value": 1
+    },
+    {
+      "name": "智慧博物馆",
+      "value": 1
+    }
+  ],
   "radar": [
     {
       "name": "数据采集",
-      "value": 0
+      "value": 2
     },
     {
       "name": "数字存档",
-      "value": 0
+      "value": 7
     },
     {
       "name": "展示传播",
@@ -17,7 +42,7 @@
     },
     {
       "name": "智慧管理",
-      "value": 0
+      "value": 2
     },
     {
       "name": "AI应用",
@@ -25,7 +50,7 @@
     },
     {
       "name": "数字保护",
-      "value": 0
+      "value": 2
     }
   ],
   "bar": {
