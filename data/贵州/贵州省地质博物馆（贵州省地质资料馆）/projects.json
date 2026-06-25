@@ -1,0 +1,35 @@
+{
+  "museum": "贵州省地质博物馆（贵州省地质资料馆）",
+  "province": "贵州",
+  "city": "贵州省",
+  "projects": [
+    {
+      "title": "贵州省地质博物馆可移动文物数字化保护利用项目（一期）藏品三维数据开发的中标(成交)结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202404/t20240429_21966859.htm",
+      "date": "2024/4/29",
+      "amount": 150.5,
+      "supplier": "深圳市华图测控系统有限公司",
+      "supplier_addr": "深圳市宝安区西乡街道铁岗社区铁岗水库路147号厂房2栋3层",
+      "agent": "贵州聚力项目管理咨询有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "贵州省地质博物馆可移动文物数字化保护利用项目（一期）藏品三维数据采集的中标(成交)结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202404/t20240429_21966801.htm",
+      "date": "2024/4/29",
+      "amount": 88.0,
+      "supplier": "天津恒达文博科技股份有限公司",
+      "supplier_addr": "天津市华苑产业区榕苑路15号1-B-706室",
+      "agent": "贵州聚力项目管理咨询有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

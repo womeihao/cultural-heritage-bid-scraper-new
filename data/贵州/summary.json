@@ -1,0 +1,25 @@
+{
+  "province": "贵州",
+  "total_projects": 6,
+  "total_amount": 522.38,
+  "total_museums": 5,
+  "total_suppliers": 5,
+  "museums": [
+    "务川仡佬族苗族自治县文化旅游局",
+    "贵州三线建设博物馆",
+    "贵州省地质博物馆（贵州省地质资料馆）",
+    "铜仁市万山区文体广电旅游局",
+    "铜仁市文体广电旅游局"
+  ],
+  "year_data": {
+    "2025": {
+      "count": 2,
+      "amount": 283.88
+    },
+    "2024": {
+      "count": 4,
+      "amount": 238.5
+    }
+  },
+  "tag_distribution": {}
+}

@@ -1,0 +1,17 @@
+{
+  "province": "河南",
+  "total_projects": 1,
+  "total_amount": 98.8,
+  "total_museums": 1,
+  "total_suppliers": 1,
+  "museums": [
+    "洛阳市偃师区文物局"
+  ],
+  "year_data": {
+    "2024": {
+      "count": 1,
+      "amount": 98.8
+    }
+  },
+  "tag_distribution": {}
+}

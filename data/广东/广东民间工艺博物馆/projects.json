@@ -1,0 +1,35 @@
+{
+  "museum": "广东民间工艺博物馆",
+  "province": "广东",
+  "city": "市辖区",
+  "projects": [
+    {
+      "title": "广东民间工艺博物馆2023年数字博物馆建设项目（一期）（CZ2023-0936）采购更正公告（第二次）",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202309/t20230915_20717764.htm",
+      "date": "2023/9/15",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "广州市政府采购中心",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "广东民间工艺博物馆2023年数字博物馆建设项目（一期）（CZ2023-0936）采购更正公告（第三次）",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202310/t20231016_20886940.htm",
+      "date": "2023/10/16",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "广州市政府采购中心",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

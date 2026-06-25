@@ -1,0 +1,21 @@
+{
+  "province": "河北",
+  "total_projects": 3,
+  "total_amount": 1217.8,
+  "total_museums": 1,
+  "total_suppliers": 2,
+  "museums": [
+    "河北博物院"
+  ],
+  "year_data": {
+    "2024": {
+      "count": 2,
+      "amount": 882.7
+    },
+    "2023": {
+      "count": 1,
+      "amount": 335.1
+    }
+  },
+  "tag_distribution": {}
+}

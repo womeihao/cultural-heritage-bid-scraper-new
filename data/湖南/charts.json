@@ -1,0 +1,49 @@
+{
+  "province": "湖南",
+  "generated_at": "2026-06-25T13:29:16.099639",
+  "pie": [],
+  "radar": [
+    {
+      "name": "数据采集",
+      "value": 0
+    },
+    {
+      "name": "数字存档",
+      "value": 0
+    },
+    {
+      "name": "展示传播",
+      "value": 0
+    },
+    {
+      "name": "智慧管理",
+      "value": 0
+    },
+    {
+      "name": "AI应用",
+      "value": 0
+    },
+    {
+      "name": "数字保护",
+      "value": 0
+    }
+  ],
+  "bar": {
+    "years": [
+      2024
+    ],
+    "counts": [
+      1
+    ],
+    "amounts": [
+      0
+    ]
+  },
+  "top_museums": [
+    {
+      "name": "湖南省文物考古研究院（湖南省文物保护利用中心）",
+      "count": 1
+    }
+  ],
+  "top_suppliers": []
+}

@@ -1,0 +1,22 @@
+{
+  "province": "黑龙江",
+  "total_projects": 2,
+  "total_amount": 1735.02,
+  "total_museums": 2,
+  "total_suppliers": 2,
+  "museums": [
+    "黑龙江大学",
+    "黑龙江省博物馆"
+  ],
+  "year_data": {
+    "2026": {
+      "count": 1,
+      "amount": 100.36
+    },
+    "2023": {
+      "count": 1,
+      "amount": 1634.66
+    }
+  },
+  "tag_distribution": {}
+}

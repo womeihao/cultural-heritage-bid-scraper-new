@@ -1,0 +1,49 @@
+{
+  "museum": "河北博物院",
+  "province": "河北",
+  "city": "河北省",
+  "projects": [
+    {
+      "title": "河北博物院珍贵文物数字化保护项目公开招标中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202407/t20240730_22761544.htm",
+      "date": "2024/7/30",
+      "amount": 400.7,
+      "supplier": "北京昆仑文保科技有限公司",
+      "supplier_addr": "北京市海淀区永翔北路航空材料园A区628号楼二层203B室",
+      "agent": "华春建设工程项目管理有限责任公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "河北博物院珍贵文物数字化展示传播项目中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202405/t20240530_22239658.htm",
+      "date": "2024/5/30",
+      "amount": 482.0,
+      "supplier": "石家庄千典科技有限公司",
+      "supplier_addr": "石家庄高新区天山大街266号方大科技园10号楼301室",
+      "agent": "河北乐创工程项目管理有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "河北博物院珍贵文物数字化展示传播项目（二次）中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202307/t20230713_20254171.htm",
+      "date": "2023/7/13",
+      "amount": 335.1,
+      "supplier": "石家庄千典科技有限公司",
+      "supplier_addr": "石家庄高新区天山大街266号方大科技园10号楼301室",
+      "agent": "河北乐创工程项目管理有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}
