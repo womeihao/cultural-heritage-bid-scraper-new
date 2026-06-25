@@ -17,21 +17,5 @@
       "amount": 335.1
     }
   },
-  "tag_distribution": {
-    "数字归档": 3,
-    "数字保护": 1
-  },
-  "museum_details": {
-    "河北博物院": {
-      "count": 3,
-      "amount": 1217.8,
-      "suppliers": 2,
-      "city": "",
-      "level": "",
-      "main_tags": [
-        "数字归档",
-        "数字保护"
-      ]
-    }
-  }
+  "tag_distribution": {}
 }

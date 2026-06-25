@@ -21,5 +21,63 @@
       "amount": 238.5
     }
   },
-  "tag_distribution": {}
+  "tag_distribution": {
+    "数字归档": 6,
+    "数字保护": 4
+  },
+  "museum_details": {
+    "务川仡佬族苗族自治县文化旅游局": {
+      "count": 1,
+      "amount": 0.0,
+      "suppliers": 0,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "贵州三线建设博物馆": {
+      "count": 1,
+      "amount": 0.0,
+      "suppliers": 1,
+      "city": "钟山区",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "贵州省地质博物馆（贵州省地质资料馆）": {
+      "count": 2,
+      "amount": 238.5,
+      "suppliers": 2,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "铜仁市万山区文体广电旅游局": {
+      "count": 1,
+      "amount": 203.98,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "铜仁市文体广电旅游局": {
+      "count": 1,
+      "amount": 79.9,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    }
+  }
 }

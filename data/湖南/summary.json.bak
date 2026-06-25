@@ -1,0 +1,17 @@
+{
+  "province": "湖南",
+  "total_projects": 1,
+  "total_amount": 0,
+  "total_museums": 1,
+  "total_suppliers": 0,
+  "museums": [
+    "湖南省文物考古研究院（湖南省文物保护利用中心）"
+  ],
+  "year_data": {
+    "2024": {
+      "count": 1,
+      "amount": 0
+    }
+  },
+  "tag_distribution": {}
+}

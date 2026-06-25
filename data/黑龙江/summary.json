@@ -18,5 +18,32 @@
       "amount": 1634.66
     }
   },
-  "tag_distribution": {}
+  "tag_distribution": {
+    "数字归档": 2,
+    "数字保护": 2
+  },
+  "museum_details": {
+    "黑龙江大学": {
+      "count": 1,
+      "amount": 100.36,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "黑龙江省博物馆": {
+      "count": 1,
+      "amount": 1634.66,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    }
+  }
 }

@@ -13,15 +13,5 @@
       "amount": 98.8
     }
   },
-  "tag_distribution": {},
-  "museum_details": {
-    "洛阳市偃师区文物局": {
-      "count": 1,
-      "amount": 98.8,
-      "suppliers": 1,
-      "city": "",
-      "level": "",
-      "main_tags": []
-    }
-  }
+  "tag_distribution": {}
 }
