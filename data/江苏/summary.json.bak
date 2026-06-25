@@ -1,0 +1,17 @@
+{
+  "province": "江苏",
+  "total_projects": 1,
+  "total_amount": 749.0,
+  "total_museums": 1,
+  "total_suppliers": 1,
+  "museums": [
+    "无锡市文物考古研究所"
+  ],
+  "year_data": {
+    "2024": {
+      "count": 1,
+      "amount": 749.0
+    }
+  },
+  "tag_distribution": {}
+}

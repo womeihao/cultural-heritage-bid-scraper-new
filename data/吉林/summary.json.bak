@@ -1,0 +1,18 @@
+{
+  "province": "吉林",
+  "total_projects": 2,
+  "total_amount": 154.95,
+  "total_museums": 2,
+  "total_suppliers": 1,
+  "museums": [
+    "伪满皇宫博物院",
+    "吉林省自然博物馆"
+  ],
+  "year_data": {
+    "2024": {
+      "count": 2,
+      "amount": 154.95
+    }
+  },
+  "tag_distribution": {}
+}

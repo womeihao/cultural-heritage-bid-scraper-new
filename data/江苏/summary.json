@@ -13,5 +13,21 @@
       "amount": 749.0
     }
   },
-  "tag_distribution": {}
+  "tag_distribution": {
+    "藏品管理": 1,
+    "数字保护": 1
+  },
+  "museum_details": {
+    "无锡市文物考古研究所": {
+      "count": 1,
+      "amount": 749.0,
+      "suppliers": 1,
+      "city": "无锡市",
+      "level": "",
+      "main_tags": [
+        "藏品管理",
+        "数字保护"
+      ]
+    }
+  }
 }

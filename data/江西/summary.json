@@ -26,5 +26,76 @@
       "amount": 48.5
     }
   },
-  "tag_distribution": {}
+  "tag_distribution": {
+    "数字归档": 5,
+    "数字保护": 5,
+    "智慧博物馆": 1
+  },
+  "museum_details": {
+    "安福县博物馆": {
+      "count": 1,
+      "amount": 0.0,
+      "suppliers": 0,
+      "city": "安福县",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "宜春市博物馆": {
+      "count": 1,
+      "amount": 190.92,
+      "suppliers": 1,
+      "city": "市辖区",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "崇仁县博物馆": {
+      "count": 1,
+      "amount": 48.5,
+      "suppliers": 1,
+      "city": "崇仁县",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "庐山博物馆": {
+      "count": 1,
+      "amount": 4336.67,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "智慧博物馆"
+      ]
+    },
+    "江西客家博物院": {
+      "count": 1,
+      "amount": 138.5,
+      "suppliers": 1,
+      "city": "赣县",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "萍乡博物馆": {
+      "count": 1,
+      "amount": 215.8,
+      "suppliers": 1,
+      "city": "市辖区",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    }
+  }
 }

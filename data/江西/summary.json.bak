@@ -1,0 +1,30 @@
+{
+  "province": "江西",
+  "total_projects": 6,
+  "total_amount": 4930.39,
+  "total_museums": 6,
+  "total_suppliers": 5,
+  "museums": [
+    "安福县博物馆",
+    "宜春市博物馆",
+    "崇仁县博物馆",
+    "庐山博物馆",
+    "江西客家博物院",
+    "萍乡博物馆"
+  ],
+  "year_data": {
+    "2026": {
+      "count": 1,
+      "amount": 4336.67
+    },
+    "2025": {
+      "count": 3,
+      "amount": 545.22
+    },
+    "2024": {
+      "count": 2,
+      "amount": 48.5
+    }
+  },
+  "tag_distribution": {}
+}

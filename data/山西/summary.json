@@ -33,5 +33,154 @@
       "amount": 1025.25
     }
   },
-  "tag_distribution": {}
+  "tag_distribution": {
+    "数字归档": 18,
+    "数字保护": 14,
+    "三维扫描": 1
+  },
+  "museum_details": {
+    "临猗县博物馆": {
+      "count": 2,
+      "amount": 44.88,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "云冈研究院": {
+      "count": 3,
+      "amount": 535.61,
+      "suppliers": 2,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "三维扫描",
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "吕梁市晋绥边区革命纪念馆": {
+      "count": 1,
+      "amount": 47.32,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "大同市博物馆": {
+      "count": 1,
+      "amount": 91.08,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "太原市太山博物馆": {
+      "count": 1,
+      "amount": 178.42,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "山西省文物局机关": {
+      "count": 1,
+      "amount": 2000.0,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "山西省永乐宫壁画保护研究院": {
+      "count": 2,
+      "amount": 204.46,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "平定县文化和旅游局": {
+      "count": 1,
+      "amount": 182.7,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "永济市蒲津渡与蒲州故城文物保护所": {
+      "count": 1,
+      "amount": 138.5,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "河曲县文化和旅游局（河曲县文物局）": {
+      "count": 4,
+      "amount": 73.99,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "繁峙县文化和旅游局": {
+      "count": 1,
+      "amount": 98.8,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "长子县文物保护中心": {
+      "count": 1,
+      "amount": 2349.5,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "长治市城隍庙文物管理所": {
+      "count": 1,
+      "amount": 151.98,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    }
+  }
 }
