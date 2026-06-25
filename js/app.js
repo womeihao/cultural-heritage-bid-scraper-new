@@ -74,7 +74,9 @@ function goToNational() {
 }
 
 function goToProvince(provinceName) {
-  if (!provinceName || provinceName === AppState.currentProvince) return;
+  if (!provinceName) return;
+  // 只有当前已经在同一省份视图时才跳过
+  if (AppState.currentView === "province" && provinceName === AppState.currentProvince) return;
   AppState.currentMuseum = null;
   AppState.museumData = null;
   clearProvinceData();
@@ -244,16 +246,23 @@ function renderMuseumTable(summary) {
 
   // 简化版: 用项目数等汇总信息构造表格行
   // 实际应从 summary.json 的 museum 字段获取; 这里用现有数据做快速渲染
+  // v2: 使用 summary.museum_details 中的数据
+  const details = summary.museum_details || {};
   tbody.innerHTML = museums.map(m => {
-    const count = summary.total_projects ? Math.floor(summary.total_projects / summary.total_museums) : 0;
+    const d = details[m] || {};
+    const count = d.count || 0;
+    const amount = d.amount ? d.amount.toFixed(2) + ' 万' : '—';
+    const level = d.level || '—';
+    const city = d.city || '—';
+    const mainTags = (d.main_tags || []).join(', ') || '—';
     return `
       <tr class="clickable" data-museum="${escapeHTML(m)}">
         <td>${escapeHTML(m)}</td>
-        <td>—</td>
-        <td>—</td>
+        <td>${escapeHTML(level)}</td>
+        <td>${escapeHTML(city)}</td>
         <td>${count}</td>
-        <td>—</td>
-        <td>—</td>
+        <td>${escapeHTML(amount)}</td>
+        <td>${escapeHTML(mainTags)}</td>
       </tr>
     `;
   }).join("");

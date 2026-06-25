@@ -140,3 +140,6 @@ const ChartsManager = {
 
 // 监听 resize
 window.addEventListener("resize", () => ChartsManager.resizeAll());
+
+// 暴露到全局 (因为 app.js 等使用非模块方式引用)
+window.ChartsManager = ChartsManager;
