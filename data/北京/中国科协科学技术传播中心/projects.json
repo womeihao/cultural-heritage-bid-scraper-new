@@ -1,0 +1,35 @@
+{
+  "museum": "中国科协科学技术传播中心",
+  "province": "北京",
+  "city": "北京市",
+  "projects": [
+    {
+      "title": "中国科协科学技术传播中心中国科学家博物馆藏品智慧管理系统（四期）项目中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202408/t20240820_22943411.htm",
+      "date": "2024/8/20",
+      "amount": 140.0,
+      "supplier": "明同",
+      "supplier_addr": "北京市朝阳区十八里店乡老君堂村北一层1007室",
+      "agent": "中招政采（北京）咨询有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "中国科协科学技术传播中心中国科学家博物馆藏品库房基础建设（三期）第2包采购项目（重新采购）中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202311/t20231130_21177480.htm",
+      "date": "2023/11/30",
+      "amount": 85.0,
+      "supplier": "明同",
+      "supplier_addr": "北京市朝阳区十八里店乡老君堂村北一层1007室",
+      "agent": "中贸国际工程招标（北京）有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

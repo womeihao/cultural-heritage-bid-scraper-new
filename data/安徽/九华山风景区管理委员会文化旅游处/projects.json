@@ -1,0 +1,35 @@
+{
+  "museum": "九华山风景区管理委员会文化旅游处",
+  "province": "安徽",
+  "city": "安徽省",
+  "projects": [
+    {
+      "title": "九华山历史文物馆馆藏文物数字化保护项目成交结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202504/t20250409_24416008.htm",
+      "date": "2025/4/9",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "武汉东湖新技术开发区光谷大道",
+      "agent": "安徽省清风项目管理有限公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "九华山风景区文物数字化项目（第二次）中标结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202410/t20241022_23426933.htm",
+      "date": "2024/10/22",
+      "amount": 0.0,
+      "supplier": "武汉大势智慧科技有限公司",
+      "supplier_addr": "武汉东湖新技术开发区光谷大道",
+      "agent": "安徽中威项目咨询有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

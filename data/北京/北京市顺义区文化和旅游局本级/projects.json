@@ -1,0 +1,35 @@
+{
+  "museum": "北京市顺义区文化和旅游局本级",
+  "province": "北京",
+  "city": "北京市",
+  "projects": [
+    {
+      "title": "不可移动文物数字化保护二期中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202508/t20250827_25243261.htm",
+      "date": "2025/8/27",
+      "amount": 375.38,
+      "supplier": "北京数字万方文化科技有限公司",
+      "supplier_addr": "北京市朝阳区酒仙桥东路9号院2号楼102-3",
+      "agent": "北京永洲招标有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "顺义区不可移动文物数字化保护项目中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202410/t20241028_23474313.htm",
+      "date": "2024/10/28",
+      "amount": 804.94,
+      "supplier": "北京数字万方文化科技有限公司",
+      "supplier_addr": "北京市朝阳区酒仙桥东路9号院2号楼102-3",
+      "agent": "北京京采工程造价咨询有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

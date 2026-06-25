@@ -1,0 +1,21 @@
+{
+  "museum": "北京市西城区文化和旅游局（本级）",
+  "province": "北京",
+  "city": "北京市",
+  "projects": [
+    {
+      "title": "西城区文物数字化管理平台中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202310/t20231031_20979833.htm",
+      "date": "2023/10/31",
+      "amount": 326.0,
+      "supplier": "北京同创信通科技有限公司",
+      "supplier_addr": "北京市丰台区南四环西路188号二区4号楼8层(园区)",
+      "agent": "北京建智达工程管理股份有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

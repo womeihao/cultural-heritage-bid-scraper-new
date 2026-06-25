@@ -1,0 +1,21 @@
+{
+  "museum": "北京市文物局",
+  "province": "北京",
+  "city": "北京市",
+  "projects": [
+    {
+      "title": "北京市文物局北京市重点革命文物数字化保护提升工程成交公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202404/t20240429_21973025.htm",
+      "date": "2024/4/29",
+      "amount": 89.78,
+      "supplier": "清华大学建筑设计研究院有限公司",
+      "supplier_addr": "北京市海淀区清华大学院内建筑馆",
+      "agent": "中金招标有限责任公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

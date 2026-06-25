@@ -1,0 +1,63 @@
+{
+  "museum": "中国科学院自然科学史研究所",
+  "province": "北京",
+  "city": "北京市",
+  "projects": [
+    {
+      "title": "中国科学院自然科学史研究所科技文化遗产激光高精度信息提取平台采购项目中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202506/t20250612_24763514.htm",
+      "date": "2025/6/12",
+      "amount": 89.6,
+      "supplier": "南京龙测测绘技术有限公司",
+      "supplier_addr": "南京市鼓楼区建宁路98号",
+      "agent": "东方国际招标有限责任公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "中国科学院自然科学史研究所科技文化遗产数字化平台（三期）竞争性磋商采购项目成交公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/cjgg/202407/t20240709_22576987.htm",
+      "date": "2024/7/9",
+      "amount": 77.5,
+      "supplier": "四川禾望国际贸易有限公司",
+      "supplier_addr": "中国（四川）自由贸易试验区成都高新区天府大道中段1577号10楼",
+      "agent": "东方国际招标有限责任公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "中国科学院自然科学史研究所科技文化遗产数字化平台（二期）采购项目中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202308/t20230823_20557740.htm",
+      "date": "2023/8/23",
+      "amount": 95.99,
+      "supplier": "北京趋势未来科技发展有限公司",
+      "supplier_addr": "北京市密云区鼓楼东大街3号山水大厦3层313室-177（云创谷经济开发中心集中办公区）",
+      "agent": "东方国际招标有限责任公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "中国科学院自然科学史研究所科技文化遗产数字化平台（二期）采购项目更正公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/gzgg/202307/t20230727_20379618.htm",
+      "date": "2023/7/27",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "东方国际招标有限责任公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

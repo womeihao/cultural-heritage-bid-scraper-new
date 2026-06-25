@@ -1,0 +1,35 @@
+{
+  "museum": "甘肃省博物馆",
+  "province": "甘肃",
+  "city": "甘肃省",
+  "projects": [
+    {
+      "title": "甘肃省博物馆馆藏文物数字化保护项目（二期）中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202409/t20240919_23193803.htm",
+      "date": "2024/9/19",
+      "amount": 537.86,
+      "supplier": "甘肃甘文信科技信息工程有限公司",
+      "supplier_addr": "",
+      "agent": "兰州众信招标有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "甘肃省博物馆文物数字化保护与文物资源大数据应用项目更正公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202309/t20230925_20769300.htm",
+      "date": "2023/9/25",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "兰州众信招标有限公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

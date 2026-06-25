@@ -1,0 +1,49 @@
+{
+  "museum": "福建中医药大学",
+  "province": "福建",
+  "city": "福建省",
+  "projects": [
+    {
+      "title": "智慧博物馆系统等采购项目(三次)结果公告（合同包1）",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202308/t20230802_20418832.htm",
+      "date": "2023/8/2",
+      "amount": 33.6,
+      "supplier": "北京慧舟普度科技有限公司",
+      "supplier_addr": "北京市昌平区回龙观镇回龙观西大街16号院1号楼1至6层101三层D310",
+      "agent": "福建省智信招标有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "智慧博物馆系统等采购项目(二次) 结果公告（合同包1）",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/fblbgg/202307/t20230703_20186042.htm",
+      "date": "2023/7/3",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "福建省智信招标有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "智慧博物馆系统等采购项目(三次)采购更正公告（第一次）",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202307/t20230727_20380295.htm",
+      "date": "2023/7/27",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "福建省智信招标有限公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "museum": "中国文物信息咨询中心",
+  "province": "北京",
+  "city": "北京市",
+  "projects": [
+    {
+      "title": "中国文物信息咨询中心古建筑高精度三维数据采集加工服务成交公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/cjgg/202506/t20250630_24874367.htm",
+      "date": "2025/6/30",
+      "amount": 118.8,
+      "supplier": "中兵勘察设计研究院有限公司",
+      "supplier_addr": "北京市西城区西便门内大街79号",
+      "agent": "中招国际招标有限公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "中国文物信息咨询中心文物数字化采集及检测项目中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/zbgg/202407/t20240719_22672515.htm",
+      "date": "2024/7/19",
+      "amount": 387.02,
+      "supplier": "北京昆仑文保科技有限公司",
+      "supplier_addr": "北京市海淀区永翔北路航空材料园A区628号楼二层203B室",
+      "agent": "中招国际招标有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "中国文物信息咨询中心文物数字化采集及检测项目更正公告",
+      "url": "http://www.ccgp.gov.cn/cggg/zygg/gzgg/202406/t20240625_22459655.htm",
+      "date": "2024/6/25",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "中招国际招标有限公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

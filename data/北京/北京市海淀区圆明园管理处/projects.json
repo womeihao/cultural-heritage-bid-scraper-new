@@ -1,0 +1,21 @@
+{
+  "museum": "北京市海淀区圆明园管理处",
+  "province": "北京",
+  "city": "北京市",
+  "projects": [
+    {
+      "title": "北京市海淀区圆明园管理处圆明园文物数据库建设项目比选结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202308/t20230823_20560806.htm",
+      "date": "2023/8/23",
+      "amount": 70.0,
+      "supplier": "中国文物信息咨询中心",
+      "supplier_addr": "北京市朝阳区北四环高原街甲2号",
+      "agent": "北京恒敬工程管理有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

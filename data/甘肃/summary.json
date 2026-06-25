@@ -1,0 +1,28 @@
+{
+  "province": "甘肃",
+  "total_projects": 5,
+  "total_amount": 927.06,
+  "total_museums": 4,
+  "total_suppliers": 4,
+  "museums": [
+    "兰州大学",
+    "敦煌研究院",
+    "甘肃省博物馆",
+    "甘肃简牍博物馆"
+  ],
+  "year_data": {
+    "2025": {
+      "count": 1,
+      "amount": 99.8
+    },
+    "2024": {
+      "count": 3,
+      "amount": 827.26
+    },
+    "2023": {
+      "count": 1,
+      "amount": 0
+    }
+  },
+  "tag_distribution": {}
+}

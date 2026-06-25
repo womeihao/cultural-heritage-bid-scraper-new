@@ -1,0 +1,35 @@
+{
+  "museum": "北京市房山区文物保护所",
+  "province": "北京",
+  "city": "北京市",
+  "projects": [
+    {
+      "title": "房山区文化遗产监测与预防性保护平台预算项目成交公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202502/t20250217_24175366.htm",
+      "date": "2025/2/17",
+      "amount": 0,
+      "supplier": "浪潮软件科技有限公司",
+      "supplier_addr": "中国（山东）自由贸易试验区济南片区浪潮路1036号浪潮科技园",
+      "agent": "坤益强（北京）招投标代理有限公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "房山区部分重点文物数字化预算项目（一期）成交公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202409/t20240925_23235132.htm",
+      "date": "2024/9/25",
+      "amount": 0,
+      "supplier": "北京理工大学",
+      "supplier_addr": "北京市海淀区中关村南大街5号",
+      "agent": "北京海棠工程项目管理有限公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

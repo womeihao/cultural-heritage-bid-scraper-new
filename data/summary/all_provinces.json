@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-06-25T13:29:16.147315",
+  "provinces": [
+    {
+      "province": "上海",
+      "total_projects": 6,
+      "total_amount": 2365.21,
+      "total_museums": 5,
+      "total_suppliers": 4
+    },
+    {
+      "province": "内蒙古",
+      "total_projects": 5,
+      "total_amount": 301.95,
+      "total_museums": 2,
+      "total_suppliers": 3
+    },
+    {
+      "province": "北京",
+      "total_projects": 30,
+      "total_amount": 9534.76,
+      "total_museums": 19,
+      "total_suppliers": 23
+    },
+    {
+      "province": "吉林",
+      "total_projects": 2,
+      "total_amount": 154.95,
+      "total_museums": 2,
+      "total_suppliers": 1
+    },
+    {
+      "province": "四川",
+      "total_projects": 10,
+      "total_amount": 993.59,
+      "total_museums": 5,
+      "total_suppliers": 6
+    },
+    {
+      "province": "安徽",
+      "total_projects": 4,
+      "total_amount": 0.0,
+      "total_museums": 3,
+      "total_suppliers": 2
+    },
+    {
+      "province": "山东",
+      "total_projects": 5,
+      "total_amount": 208.52,
+      "total_museums": 3,
+      "total_suppliers": 4
+    },
+    {
+      "province": "山西",
+      "total_projects": 20,
+      "total_amount": 6097.24,
+      "total_museums": 13,
+      "total_suppliers": 11
+    },
+    {
+      "province": "广东",
+      "total_projects": 4,
+      "total_amount": 215.1,
+      "total_museums": 3,
+      "total_suppliers": 1
+    },
+    {
+      "province": "广西",
+      "total_projects": 6,
+      "total_amount": 620.66,
+      "total_museums": 6,
+      "total_suppliers": 6
+    },
+    {
+      "province": "新疆",
+      "total_projects": 7,
+      "total_amount": 804.71,
+      "total_museums": 6,
+      "total_suppliers": 6
+    },
+    {
+      "province": "江苏",
+      "total_projects": 1,
+      "total_amount": 749.0,
+      "total_museums": 1,
+      "total_suppliers": 1
+    },
+    {
+      "province": "江西",
+      "total_projects": 6,
+      "total_amount": 4930.39,
+      "total_museums": 6,
+      "total_suppliers": 5
+    },
+    {
+      "province": "河北",
+      "total_projects": 3,
+      "total_amount": 1217.8,
+      "total_museums": 1,
+      "total_suppliers": 2
+    },
+    {
+      "province": "河南",
+      "total_projects": 1,
+      "total_amount": 98.8,
+      "total_museums": 1,
+      "total_suppliers": 1
+    },
+    {
+      "province": "浙江",
+      "total_projects": 14,
+      "total_amount": 1309.04,
+      "total_museums": 11,
+      "total_suppliers": 7
+    },
+    {
+      "province": "湖北",
+      "total_projects": 2,
+      "total_amount": 156.6,
+      "total_museums": 2,
+      "total_suppliers": 2
+    },
+    {
+      "province": "湖南",
+      "total_projects": 1,
+      "total_amount": 0,
+      "total_museums": 1,
+      "total_suppliers": 0
+    },
+    {
+      "province": "甘肃",
+      "total_projects": 5,
+      "total_amount": 927.06,
+      "total_museums": 4,
+      "total_suppliers": 4
+    },
+    {
+      "province": "福建",
+      "total_projects": 6,
+      "total_amount": 611.64,
+      "total_museums": 4,
+      "total_suppliers": 4
+    },
+    {
+      "province": "贵州",
+      "total_projects": 6,
+      "total_amount": 522.38,
+      "total_museums": 5,
+      "total_suppliers": 5
+    },
+    {
+      "province": "重庆",
+      "total_projects": 4,
+      "total_amount": 902.8,
+      "total_museums": 2,
+      "total_suppliers": 2
+    },
+    {
+      "province": "陕西",
+      "total_projects": 4,
+      "total_amount": 371.24,
+      "total_museums": 2,
+      "total_suppliers": 3
+    },
+    {
+      "province": "黑龙江",
+      "total_projects": 2,
+      "total_amount": 1735.02,
+      "total_museums": 2,
+      "total_suppliers": 2
+    }
+  ],
+  "total_provinces": 24
+}

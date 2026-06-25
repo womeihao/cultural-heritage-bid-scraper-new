@@ -1,0 +1,35 @@
+{
+  "museum": "北京市朝阳区文化和旅游局机关",
+  "province": "北京",
+  "city": "北京市",
+  "projects": [
+    {
+      "title": "朝阳区石刻文物数字化项目成交公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202411/t20241104_23526186.htm",
+      "date": "2024/11/4",
+      "amount": 0,
+      "supplier": "北京数字万方文化科技有限公司",
+      "supplier_addr": "北京市朝阳区酒仙桥东路9号院2号楼102-3",
+      "agent": "北京子恒工程管理有限公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "北京东岳庙石刻数字化保护及展示利用项目中标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202411/t20241119_23657772.htm",
+      "date": "2024/11/19",
+      "amount": 490.17,
+      "supplier": "新维畅想数字科技",
+      "supplier_addr": "北京市东城区藏经馆胡同17号1幢1338室",
+      "agent": "北京东方华太工程咨询有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}
