@@ -1,0 +1,63 @@
+{
+  "museum": "内蒙古民族解放纪念馆",
+  "province": "内蒙古",
+  "city": "兴安盟",
+  "projects": [
+    {
+      "title": "内蒙古民族解放纪念馆红色革命教育文物数字化保护项目(二次)结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202309/t20230912_20684964.htm",
+      "date": "2023/9/12",
+      "amount": 103.5,
+      "supplier": "郑州大年初一文化创意有限公司",
+      "supplier_addr": "河南省郑州市金水区金水东路80号绿地新都会9号楼2605",
+      "agent": "兴安盟全过程工程咨询有限责任公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "内蒙古民族解放纪念馆红色革命教育文物数字化保护项目结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202308/t20230803_20427951.htm",
+      "date": "2023/8/3",
+      "amount": 103.0,
+      "supplier": "郑州帧格文化科技有限公司",
+      "supplier_addr": "郑州市郑东新区九如东路6号13号楼2单元3层8号",
+      "agent": "兴安盟全过程工程咨询有限责任公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "内蒙古民族解放纪念馆红色革命教育文物数字化保护项目结果更正公告（第一次）",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202308/t20230818_20528136.htm",
+      "date": "2023/8/18",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "兴安盟全过程工程咨询有限责任公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "内蒙古民族解放纪念馆红色革命教育文物数字化保护项目采购更正公告（第一次）",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202307/t20230721_20306745.htm",
+      "date": "2023/7/21",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "兴安盟全过程工程咨询有限责任公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

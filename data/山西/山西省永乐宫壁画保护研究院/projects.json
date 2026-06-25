@@ -1,0 +1,35 @@
+{
+  "museum": "山西省永乐宫壁画保护研究院",
+  "province": "山西",
+  "city": "山西省",
+  "projects": [
+    {
+      "title": "山西省永乐宫壁画保护研究院院藏珍贵文物数字化保护项目结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202408/t20240812_22866508.htm",
+      "date": "2024/8/12",
+      "amount": 204.46,
+      "supplier": "北京昆仑文保科技有限公司",
+      "supplier_addr": "北京市海淀区永翔北路航空材料园A区628号楼二层203B室",
+      "agent": "山西德成招标代理有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "山西省永乐宫壁画保护研究院院藏珍贵文物数字化保护项目的更正公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202407/t20240723_22702147.htm",
+      "date": "2024/7/23",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "山西德成招标代理有限公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

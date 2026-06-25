@@ -1,0 +1,63 @@
+{
+  "museum": "河曲县文化和旅游局（河曲县文物局）",
+  "province": "山西",
+  "city": "山西省",
+  "projects": [
+    {
+      "title": "河曲县馆藏文物数字化项目的延期公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202511/t20251123_25750156.htm",
+      "date": "2025/11/23",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "山西展志项目管理有限公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "河曲县馆藏文物数字化项目废标公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202412/t20241225_23956759.htm",
+      "date": "2024/12/25",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "山西翊腾项目管理有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "河曲县馆藏文物数字化项目结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202412/t20241224_23939695.htm",
+      "date": "2024/12/24",
+      "amount": 73.99,
+      "supplier": "复旦大学",
+      "supplier_addr": "邯郸路220号",
+      "agent": "山西翊腾项目管理有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "河曲县馆藏文物数字化项目的更正公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202412/t20241218_23899010.htm",
+      "date": "2024/12/18",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "山西翊腾项目管理有限公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

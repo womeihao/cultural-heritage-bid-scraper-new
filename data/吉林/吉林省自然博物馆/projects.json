@@ -1,0 +1,21 @@
+{
+  "museum": "吉林省自然博物馆",
+  "province": "吉林",
+  "city": "吉林省",
+  "projects": [
+    {
+      "title": "可移动文物数字化保护项目成交结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202406/t20240618_22405053.htm",
+      "date": "2024/6/18",
+      "amount": 154.95,
+      "supplier": "深圳市华图测控系统有限公司",
+      "supplier_addr": "深圳市宝安区西乡街道铁岗社区铁岗水库路147号厂房2栋3层",
+      "agent": "中资国际工程咨询集团有限责任公司",
+      "bid_type": "成交公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

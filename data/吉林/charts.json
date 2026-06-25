@@ -1,0 +1,58 @@
+{
+  "province": "吉林",
+  "generated_at": "2026-06-25T13:29:15.948288",
+  "pie": [],
+  "radar": [
+    {
+      "name": "数据采集",
+      "value": 0
+    },
+    {
+      "name": "数字存档",
+      "value": 0
+    },
+    {
+      "name": "展示传播",
+      "value": 0
+    },
+    {
+      "name": "智慧管理",
+      "value": 0
+    },
+    {
+      "name": "AI应用",
+      "value": 0
+    },
+    {
+      "name": "数字保护",
+      "value": 0
+    }
+  ],
+  "bar": {
+    "years": [
+      2024
+    ],
+    "counts": [
+      2
+    ],
+    "amounts": [
+      154.95
+    ]
+  },
+  "top_museums": [
+    {
+      "name": "伪满皇宫博物院",
+      "count": 1
+    },
+    {
+      "name": "吉林省自然博物馆",
+      "count": 1
+    }
+  ],
+  "top_suppliers": [
+    {
+      "name": "深圳市华图测控系统有限公司",
+      "amount": 154.95
+    }
+  ]
+}

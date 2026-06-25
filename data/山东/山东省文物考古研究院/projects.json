@@ -1,0 +1,49 @@
+{
+  "museum": "山东省文物考古研究院",
+  "province": "山东",
+  "city": "山东省",
+  "projects": [
+    {
+      "title": "山东省文物考古研究院珍贵文物数字化保护项目中标（成交）公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202409/t20240920_23202302.htm",
+      "date": "2024/9/20",
+      "amount": 14.16,
+      "supplier": "深圳积木易搭科技技术有限公司",
+      "supplier_addr": "深圳市南山区学府路百度国际大厦东塔楼27楼",
+      "agent": "松茂（山东）招标代理有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "山东省文物考古研究院珍贵文物数字化保护项目更正公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gzgg/202407/t20240730_22759667.htm",
+      "date": "2024/7/30",
+      "amount": 0,
+      "supplier": "",
+      "supplier_addr": "",
+      "agent": "松茂（山东）招标代理有限公司",
+      "bid_type": "更正公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "山东省文物考古研究院大韩墓地玉石器数字化保护项目中标（成交）公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202307/t20230724_20350865.htm",
+      "date": "2023/7/24",
+      "amount": 0,
+      "supplier": "山东慧创意文物保护有限公司",
+      "supplier_addr": "山东省济南市历下区奥体西路与新泺大街交汇处绿地中央公馆二区12号楼101",
+      "agent": "中技兴安工程项目管理有限公司",
+      "bid_type": "中标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}

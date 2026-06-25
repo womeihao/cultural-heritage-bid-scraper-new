@@ -1,0 +1,49 @@
+{
+  "museum": "云冈研究院",
+  "province": "山西",
+  "city": "山西省",
+  "projects": [
+    {
+      "title": "云冈石窟第1、2窟考古调查三维扫描服务结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202508/t20250822_25212001.htm",
+      "date": "2025/8/22",
+      "amount": 84.88,
+      "supplier": "大同云冈数字科技有限公司",
+      "supplier_addr": "山西省大同市云冈区云冈镇云冈研究院办公区",
+      "agent": "山西筑鼎工程项目管理有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "云冈石窟第7、8窟数字化保护项目结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202504/t20250429_24522905.htm",
+      "date": "2025/4/29",
+      "amount": 341.95,
+      "supplier": "大同云冈数字科技有限公司",
+      "supplier_addr": "山西省大同市云冈区云冈镇云冈研究院办公区",
+      "agent": "山西筑鼎工程项目管理有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    },
+    {
+      "title": "云冈石窟第11-16窟造像及色彩虚拟复原展示项目结果公告",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202406/t20240627_22482424.htm",
+      "date": "2024/6/27",
+      "amount": 108.78,
+      "supplier": "北京昆仑文保科技有限公司",
+      "supplier_addr": "北京市海淀区永翔北路航空材料园A区628号楼二层203B室",
+      "agent": "山西三隆工程造价咨询有限公司",
+      "bid_type": "废标公告",
+      "source": "中国政府采购网",
+      "tags": [],
+      "tag_confidence": "",
+      "classified_by": ""
+    }
+  ]
+}
