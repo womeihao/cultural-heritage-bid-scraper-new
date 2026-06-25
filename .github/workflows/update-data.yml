@@ -1,0 +1,90 @@
+name: 历史分析 — 数据更新
+
+on:
+  workflow_dispatch:
+    inputs:
+      province:
+        description: '目标省份(逗号分隔, 留空则全部)'
+        required: false
+        default: ''
+      years:
+        description: '年份范围 (如 2023-2025)'
+        required: false
+        default: '2023-2025'
+
+jobs:
+  build:
+    name: 构建数据文件 + 飞书通知
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 安装依赖
+        run: pip install beautifulsoup4 pdfplumber pillow python-docx openpyxl
+
+      - name: 构建数据文件 (整理 raw CSV → 层级化 JSON)
+        env:
+          PROVINCES: ${{ github.event.inputs.province }}
+        run: |
+          if [ -d "output/raw" ]; then
+            PROV_FLAG=""
+            if [ -n "$PROVINCES" ]; then
+              PROV_FLAG="--provinces $PROVINCES"
+            fi
+            python scraper/build_data_files.py --input output/raw/ $PROV_FLAG
+          else
+            echo "[!] output/raw/ 目录不存在, 请先在本地运行 scrape_province.py + classify_projects.py"
+          fi
+
+      - name: 提交数据文件
+        run: |
+          git config user.name "heritage-analysis-bot"
+          git config user.email "bot@heritage-analysis.local"
+          git add data/ version.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "无数据变更"
+          else
+            git commit -m "[auto] 数据更新 $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
+
+      - name: 飞书通知
+        if: success()
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
+        run: |
+          python -c "
+import os, json, urllib.request
+
+def _post(url, data, headers=None):
+    h = {'Content-Type': 'application/json; charset=utf-8'}
+    if headers: h.update(headers)
+    body = json.dumps(data).encode('utf-8')
+    req = urllib.request.Request(url, data=body, headers=h, method='POST')
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read())
+
+try:
+    token_resp = _post('https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal',
+        {'app_id': os.environ['FEISHU_APP_ID'], 'app_secret': os.environ['FEISHU_APP_SECRET']})
+    token = token_resp['tenant_access_token']
+
+    content = '文物数字化历史分析系统\\n数据已更新, GitHub Pages 将在1-2分钟内自动部署。'
+    card = {
+        'config': {'wide_screen_mode': True},
+        'header': {'title': {'tag': 'plain_text', 'content': '📊 数据更新完成'}, 'template': 'blue'},
+        'elements': [{'tag': 'div', 'text': {'tag': 'lark_md', 'content': content}}]
+    }
+    _post(f'https://open.feishu.cn/open-apis/im/v1/messages?receive_id_type=chat_id',
+        {'receive_id': os.environ['FEISHU_CHAT_ID'], 'msg_type': 'interactive', 'content': json.dumps(card)},
+        {'Authorization': f'Bearer {token}'})
+    print('[OK] 飞书通知已发送')
+except Exception as e:
+    print(f'[WARN] 飞书通知失败: {e}')
+"

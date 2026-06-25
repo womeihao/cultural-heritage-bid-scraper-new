@@ -1,0 +1,108 @@
+name: 文物数字化中标信息日报
+
+on:
+  workflow_dispatch:
+    inputs:
+      keyword:
+        description: '搜索关键词(逗号分隔,留空则用20个默认关键词)'
+        required: false
+        default: ''
+      days:
+        description: '爬取天数(生产模式1天,开发可调)'
+        required: false
+        default: '1'
+  schedule:
+    - cron: '0 16 * * *'
+    - cron: '30 0 * * *'
+
+jobs:
+  collect:
+    name: 零点爬取+AI总结
+    if: github.event.schedule == '0 16 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 安装依赖
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: 设置日期
+        id: dt
+        run: echo "today=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: 下载上周数据artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: week-data
+          path: week_cache/
+        continue-on-error: true
+
+      - name: 爬取中标信息
+        env:
+          KEYWORD_INPUT: ${{ github.event.inputs.keyword }}
+          DAYS_INPUT: ${{ github.event.inputs.days }}
+        run: python ccgp_fast_scraper.py -k "${KEYWORD_INPUT}" -d "${DAYS_INPUT:-1}" -o "output/${{ steps.dt.outputs.today }}/文物数字化"
+
+      - name: 下载附件
+        run: python download_attachments.py --date ${{ steps.dt.outputs.today }}
+
+      - name: AI总结(模板1+2跳过模板3)
+        env:
+          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
+        run: python ai_summarize.py --date ${{ steps.dt.outputs.today }} --skip-trend
+
+      - name: 周状态管理
+        id: week
+        run: |
+          if [ -d "output/${{ steps.dt.outputs.today }}" ]; then
+            mkdir -p week_cache/output
+            cp -r "output/${{ steps.dt.outputs.today }}" "week_cache/output/"
+          fi
+          python week_manager.py add "${{ steps.dt.outputs.today }}" --data-dir week_cache
+
+      - name: 第7天合并CSV加行业趋势
+        if: contains(steps.week.outputs.day7, 'True')
+        env:
+          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
+        run: python week_manager.py trend "${{ steps.dt.outputs.today }}" --data-dir week_cache
+
+      - name: 上传本周数据artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: week-data
+          path: week_cache/
+          retention-days: 8
+
+  push:
+    name: 早8点半飞书推送
+    if: github.event.schedule == '30 0 * * *' || github.event_name == 'workflow_dispatch'
+    needs: collect  # 确保collect完成上传artifact后再执行push
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+      - name: 设置日期
+        id: dt
+        run: echo "today=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      - name: 下载本周数据artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: week-data
+          path: week_cache/
+        continue-on-error: true
+      - name: 飞书推送
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
+        run: python feishu_push.py --date ${{ steps.dt.outputs.today }}
