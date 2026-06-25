@@ -3,7 +3,7 @@
  * 拖拽、展开/收起、上下文绑定、对话历史管理、localStorage清理
  */
 
-const CLOUDFLARE_WORKER_URL = "https://heritage-ai-proxy.daofansen.workers.dev";
+const CLOUDFLARE_WORKER_URL = "https://heritage-ai-proxy.daofansen.workers.dev/";
 const MAX_HISTORY_ITEMS = 10;   // 每次发送给AI的上下文轮次
 const MAX_STORAGE_ITEMS = 50;   // localStorage每上下文最多保留条数
 const MS_PER_DAY = 86400000;
