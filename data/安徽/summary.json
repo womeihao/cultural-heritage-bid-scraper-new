@@ -19,5 +19,43 @@
       "amount": 0.0
     }
   },
-  "tag_distribution": {}
+  "tag_distribution": {
+    "数字归档": 4,
+    "数字保护": 3
+  },
+  "museum_details": {
+    "九华山风景区管理委员会文化旅游处": {
+      "count": 2,
+      "amount": 0.0,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "天长市博物馆": {
+      "count": 1,
+      "amount": 0.0,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "安徽博物院（安徽省文物鉴定站）": {
+      "count": 1,
+      "amount": 0.0,
+      "suppliers": 0,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    }
+  }
 }

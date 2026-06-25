@@ -24,5 +24,52 @@
       "amount": 0
     }
   },
-  "tag_distribution": {}
+  "tag_distribution": {
+    "数字归档": 5,
+    "数字保护": 3
+  },
+  "museum_details": {
+    "兰州大学": {
+      "count": 1,
+      "amount": 120.9,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "敦煌研究院": {
+      "count": 1,
+      "amount": 168.5,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "甘肃省博物馆": {
+      "count": 2,
+      "amount": 537.86,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "甘肃简牍博物馆": {
+      "count": 1,
+      "amount": 99.8,
+      "suppliers": 1,
+      "city": "",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    }
+  }
 }

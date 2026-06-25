@@ -39,5 +39,205 @@
       "amount": 5998.999999999999
     }
   },
-  "tag_distribution": {}
+  "tag_distribution": {
+    "智慧博物馆": 1,
+    "数字归档": 17,
+    "藏品管理": 1,
+    "数字保护": 7,
+    "文化遗产数据库": 1,
+    "虚拟展陈": 4
+  },
+  "museum_details": {
+    "中国历史研究院": {
+      "count": 1,
+      "amount": 178.1,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "智慧博物馆"
+      ]
+    },
+    "中国文物信息咨询中心": {
+      "count": 3,
+      "amount": 505.82,
+      "suppliers": 2,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "中国科协科学技术传播中心": {
+      "count": 2,
+      "amount": 225.0,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": []
+    },
+    "中国科学院自然科学史研究所": {
+      "count": 4,
+      "amount": 263.09,
+      "suppliers": 3,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "北京市怀柔区博物馆": {
+      "count": 1,
+      "amount": 168.5,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "北京市房山区文物保护所": {
+      "count": 2,
+      "amount": 0.0,
+      "suppliers": 2,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "藏品管理",
+        "数字保护",
+        "数字归档"
+      ]
+    },
+    "北京市文物局": {
+      "count": 1,
+      "amount": 89.78,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "北京市昌平区明十三陵管理中心本级": {
+      "count": 1,
+      "amount": 815.86,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": []
+    },
+    "北京市朝阳区文化和旅游局机关": {
+      "count": 2,
+      "amount": 490.17,
+      "suppliers": 2,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "北京市海淀区圆明园管理处": {
+      "count": 1,
+      "amount": 70.0,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "文化遗产数据库"
+      ]
+    },
+    "北京市海淀区文物保护中心（海淀博物馆）": {
+      "count": 2,
+      "amount": 3189.95,
+      "suppliers": 2,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "虚拟展陈",
+        "数字保护"
+      ]
+    },
+    "北京市西城区文化和旅游局（本级）": {
+      "count": 1,
+      "amount": 326.0,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "北京市通州区文物管理所": {
+      "count": 1,
+      "amount": 193.57,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": []
+    },
+    "北京市顺义区文化和旅游局本级": {
+      "count": 2,
+      "amount": 1180.32,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    },
+    "国家中医药博物馆": {
+      "count": 2,
+      "amount": 142.0,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "虚拟展陈"
+      ]
+    },
+    "国家文物局考古研究中心": {
+      "count": 1,
+      "amount": 131.0,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "首都博物馆": {
+      "count": 1,
+      "amount": 1565.6,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "虚拟展陈"
+      ]
+    },
+    "首都图书馆": {
+      "count": 1,
+      "amount": 0.0,
+      "suppliers": 0,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "数字归档"
+      ]
+    },
+    "香山革命纪念馆（本级）": {
+      "count": 1,
+      "amount": 0.0,
+      "suppliers": 1,
+      "city": "北京市",
+      "level": "",
+      "main_tags": [
+        "数字归档",
+        "数字保护"
+      ]
+    }
+  }
 }

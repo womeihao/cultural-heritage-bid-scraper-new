@@ -1,0 +1,23 @@
+{
+  "province": "安徽",
+  "total_projects": 4,
+  "total_amount": 0.0,
+  "total_museums": 3,
+  "total_suppliers": 2,
+  "museums": [
+    "九华山风景区管理委员会文化旅游处",
+    "天长市博物馆",
+    "安徽博物院（安徽省文物鉴定站）"
+  ],
+  "year_data": {
+    "2025": {
+      "count": 3,
+      "amount": 0.0
+    },
+    "2024": {
+      "count": 1,
+      "amount": 0.0
+    }
+  },
+  "tag_distribution": {}
+}
