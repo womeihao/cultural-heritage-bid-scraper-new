@@ -91,7 +91,7 @@
       "amount": 168.5,
       "suppliers": 1,
       "city": "北京市",
-      "level": "",
+      "level": "未定级",
       "main_tags": [
         "数字归档"
       ]
@@ -213,7 +213,7 @@
       "amount": 1565.6,
       "suppliers": 1,
       "city": "北京市",
-      "level": "",
+      "level": "一级",
       "main_tags": [
         "虚拟展陈"
       ]
@@ -233,7 +233,7 @@
       "amount": 0.0,
       "suppliers": 1,
       "city": "北京市",
-      "level": "",
+      "level": "未定级",
       "main_tags": [
         "数字归档",
         "数字保护"

@@ -34,7 +34,7 @@
       "amount": 120.9,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "未定级",
       "main_tags": [
         "数字归档"
       ]
@@ -44,7 +44,7 @@
       "amount": 168.5,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "一级",
       "main_tags": [
         "数字归档"
       ]
@@ -54,7 +54,7 @@
       "amount": 537.86,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "一级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -65,7 +65,7 @@
       "amount": 99.8,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "未定级",
       "main_tags": [
         "数字归档",
         "数字保护"

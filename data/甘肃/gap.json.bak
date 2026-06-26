@@ -1,7 +1,49 @@
 {
   "province": "甘肃",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 7,
+  "total_scraped": 4,
+  "matched": [
+    {
+      "name": "敦煌研究院",
+      "level": "一级",
+      "city": "敦煌",
+      "scraped_name": "敦煌研究院",
+      "confidence": 1.0
+    },
+    {
+      "name": "甘肃省博物馆",
+      "level": "一级",
+      "city": "兰州",
+      "scraped_name": "甘肃省博物馆",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "天水市博物馆",
+      "level": "一级",
+      "city": "天水"
+    },
+    {
+      "name": "武威市博物馆",
+      "level": "一级",
+      "city": "武威"
+    },
+    {
+      "name": "张掖市博物馆",
+      "level": "一级",
+      "city": "张掖"
+    },
+    {
+      "name": "酒泉市博物馆",
+      "level": "一级",
+      "city": "酒泉"
+    },
+    {
+      "name": "庆阳博物馆",
+      "level": "一级",
+      "city": "庆阳"
+    }
+  ],
+  "uncertain": []
 }

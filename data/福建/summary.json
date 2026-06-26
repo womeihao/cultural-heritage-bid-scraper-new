@@ -45,7 +45,7 @@
       "amount": 58.0,
       "suppliers": 1,
       "city": "泉州市",
-      "level": "",
+      "level": "一级",
       "main_tags": []
     },
     "福建博物院": {
@@ -53,7 +53,7 @@
       "amount": 289.0,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "一级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -64,7 +64,7 @@
       "amount": 231.04,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "三级",
       "main_tags": [
         "数字归档",
         "数字保护"

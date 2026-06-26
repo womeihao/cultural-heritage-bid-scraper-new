@@ -1,7 +1,52 @@
 {
   "province": "安徽",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 8,
+  "total_scraped": 3,
+  "matched": [
+    {
+      "name": "安徽博物院",
+      "level": "一级",
+      "city": "合肥",
+      "scraped_name": "安徽博物院（安徽省文物鉴定站）",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "安徽楚文化博物馆",
+      "level": "一级",
+      "city": "淮南"
+    },
+    {
+      "name": "渡江战役纪念馆",
+      "level": "一级",
+      "city": "合肥"
+    },
+    {
+      "name": "徽州文化博物馆",
+      "level": "一级",
+      "city": "黄山"
+    },
+    {
+      "name": "亳州博物馆",
+      "level": "一级",
+      "city": "亳州"
+    },
+    {
+      "name": "蚌埠市博物馆",
+      "level": "一级",
+      "city": "蚌埠"
+    },
+    {
+      "name": "马鞍山博物馆",
+      "level": "二级",
+      "city": "马鞍山"
+    },
+    {
+      "name": "安庆博物馆",
+      "level": "二级",
+      "city": "安庆"
+    }
+  ],
+  "uncertain": []
 }

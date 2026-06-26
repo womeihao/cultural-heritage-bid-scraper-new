@@ -1,7 +1,67 @@
 {
   "province": "福建",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 11,
+  "total_scraped": 4,
+  "matched": [
+    {
+      "name": "福建博物院",
+      "level": "一级",
+      "city": "福州",
+      "scraped_name": "福建博物院",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "古田会议纪念馆",
+      "level": "一级",
+      "city": "龙岩"
+    },
+    {
+      "name": "泉州海外交通史博物馆",
+      "level": "一级",
+      "city": "泉州"
+    },
+    {
+      "name": "厦门博物馆",
+      "level": "一级",
+      "city": "厦门"
+    },
+    {
+      "name": "漳州市博物馆",
+      "level": "一级",
+      "city": "漳州"
+    },
+    {
+      "name": "三明市博物馆",
+      "level": "一级",
+      "city": "三明"
+    },
+    {
+      "name": "莆田市博物馆",
+      "level": "一级",
+      "city": "莆田"
+    },
+    {
+      "name": "龙岩博物馆",
+      "level": "一级",
+      "city": "龙岩"
+    },
+    {
+      "name": "土楼博物馆",
+      "level": "一级",
+      "city": "龙岩"
+    },
+    {
+      "name": "福州市博物馆",
+      "level": "二级",
+      "city": "福州"
+    },
+    {
+      "name": "晋江市博物馆",
+      "level": "二级",
+      "city": "泉州"
+    }
+  ],
+  "uncertain": []
 }
