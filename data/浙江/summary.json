@@ -37,7 +37,7 @@
       "amount": 108.57,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "三级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -48,7 +48,7 @@
       "amount": 82.6,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "二级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -67,7 +67,7 @@
       "amount": 34.82,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "三级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -99,7 +99,7 @@
       "amount": 134.1,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "未定级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -118,7 +118,7 @@
       "amount": 187.9,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "二级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -129,7 +129,7 @@
       "amount": 91.98,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "三级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -140,7 +140,7 @@
       "amount": 134.67,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "未定级",
       "main_tags": [
         "数字归档",
         "数字保护"

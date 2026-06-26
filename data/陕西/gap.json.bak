@@ -1,357 +1,86 @@
 {
   "province": "陕西",
-  "generated_at": "2026-06-25T13:29:16.139298",
+  "total": 15,
+  "total_scraped": 2,
   "matched": [
     {
       "name": "陕西历史博物馆",
-      "normalized_name": "陕西历史博物馆",
-      "city": "西安",
       "level": "一级",
-      "type": "综合",
-      "match": {
-        "level": 1,
-        "museum": "陕西历史博物馆",
-        "buyer": "陕西历史博物馆",
-        "confidence": "high"
-      }
+      "city": "西安",
+      "scraped_name": "陕西历史博物馆",
+      "confidence": 1.0
     }
   ],
   "gap": [
     {
-      "name": "西安博物院",
-      "normalized_name": "西安博物院",
-      "city": "西安",
-      "level": "一级",
-      "type": "综合"
-    },
-    {
       "name": "秦始皇兵马俑博物馆",
-      "normalized_name": "秦始皇兵马俑博物馆",
-      "city": "西安",
       "level": "一级",
-      "type": "历史"
+      "city": "西安"
     },
     {
-      "name": "西安碑林博物馆",
-      "normalized_name": "西安碑林博物馆",
-      "city": "西安",
+      "name": "西安博物院",
       "level": "一级",
-      "type": "艺术"
+      "city": "西安"
     },
     {
-      "name": "汉阳陵博物馆",
-      "normalized_name": "汉阳陵博物馆",
-      "city": "西安",
+      "name": "碑林博物馆",
       "level": "一级",
-      "type": "历史"
-    },
-    {
-      "name": "陕西考古博物馆",
-      "normalized_name": "陕西考古博物馆",
-      "city": "西安",
-      "level": "无级别",
-      "type": "考古"
-    },
-    {
-      "name": "西安半坡博物馆",
-      "normalized_name": "西安半坡博物馆",
-      "city": "西安",
-      "level": "一级",
-      "type": "历史"
-    },
-    {
-      "name": "西安大唐西市博物馆",
-      "normalized_name": "西安大唐西市博物馆",
-      "city": "西安",
-      "level": "二级",
-      "type": "历史"
-    },
-    {
-      "name": "西安事变纪念馆",
-      "normalized_name": "西安事变纪念馆",
-      "city": "西安",
-      "level": "二级",
-      "type": "历史"
-    },
-    {
-      "name": "西安市钟鼓楼博物馆",
-      "normalized_name": "西安市钟鼓楼博物馆",
-      "city": "西安",
-      "level": "三级",
-      "type": "历史"
-    },
-    {
-      "name": "陕西自然博物馆",
-      "normalized_name": "陕西自然博物馆",
-      "city": "西安",
-      "level": "二级",
-      "type": "自然科学"
-    },
-    {
-      "name": "延安革命纪念馆",
-      "normalized_name": "延安革命纪念馆",
-      "city": "延安",
-      "level": "一级",
-      "type": "历史"
-    },
-    {
-      "name": "延安博物馆",
-      "normalized_name": "延安博物馆",
-      "city": "延安",
-      "level": "三级",
-      "type": "综合"
+      "city": "西安"
     },
     {
       "name": "宝鸡青铜器博物院",
-      "normalized_name": "宝鸡青铜器博物院",
-      "city": "宝鸡",
       "level": "一级",
-      "type": "历史"
-    },
-    {
-      "name": "宝鸡民俗博物馆",
-      "normalized_name": "宝鸡民俗博物馆",
-      "city": "宝鸡",
-      "level": "三级",
-      "type": "综合"
+      "city": "宝鸡"
     },
     {
       "name": "法门寺博物馆",
-      "normalized_name": "法门寺博物馆",
-      "city": "宝鸡",
-      "level": "二级",
-      "type": "历史"
+      "level": "一级",
+      "city": "宝鸡"
     },
     {
       "name": "咸阳博物院",
-      "normalized_name": "咸阳博物院",
-      "city": "咸阳",
-      "level": "二级",
-      "type": "综合"
+      "level": "一级",
+      "city": "咸阳"
     },
     {
       "name": "乾陵博物馆",
-      "normalized_name": "乾陵博物馆",
-      "city": "咸阳",
-      "level": "二级",
-      "type": "历史"
+      "level": "一级",
+      "city": "咸阳"
     },
     {
       "name": "茂陵博物馆",
-      "normalized_name": "茂陵博物馆",
-      "city": "咸阳",
-      "level": "二级",
-      "type": "历史"
-    },
-    {
-      "name": "汉景帝阳陵博物院",
-      "normalized_name": "汉景帝阳陵博物院",
-      "city": "咸阳",
       "level": "一级",
-      "type": "历史"
+      "city": "咸阳"
     },
     {
-      "name": "渭南市博物馆",
-      "normalized_name": "渭南市博物馆",
-      "city": "渭南",
-      "level": "二级",
-      "type": "综合"
-    },
-    {
-      "name": "韩城市博物馆",
-      "normalized_name": "韩城市博物馆",
-      "city": "韩城",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "汉中市博物馆",
-      "normalized_name": "汉中市博物馆",
-      "city": "汉中",
-      "level": "二级",
-      "type": "综合"
-    },
-    {
-      "name": "安康博物馆",
-      "normalized_name": "安康博物馆",
-      "city": "安康",
-      "level": "二级",
-      "type": "综合"
-    },
-    {
-      "name": "商洛市博物馆",
-      "normalized_name": "商洛市博物馆",
-      "city": "商洛",
-      "level": "三级",
-      "type": "综合"
+      "name": "延安革命纪念馆",
+      "level": "一级",
+      "city": "延安"
     },
     {
       "name": "榆林市博物馆",
-      "normalized_name": "榆林市博物馆",
-      "city": "榆林",
-      "level": "二级",
-      "type": "综合"
+      "level": "一级",
+      "city": "榆林"
     },
     {
-      "name": "铜川博物馆",
-      "normalized_name": "铜川博物馆",
-      "city": "铜川",
-      "level": "三级",
-      "type": "综合"
+      "name": "汉中市博物馆",
+      "level": "一级",
+      "city": "汉中"
     },
     {
-      "name": "西安曲江艺术博物馆",
-      "normalized_name": "西安曲江艺术博物馆",
-      "city": "西安",
-      "level": "二级",
-      "type": "艺术"
+      "name": "渭南博物馆",
+      "level": "一级",
+      "city": "渭南"
     },
     {
-      "name": "西北大学博物馆",
-      "normalized_name": "西北大学博物馆",
-      "city": "西安",
-      "level": "二级",
-      "type": "综合"
+      "name": "安康博物馆",
+      "level": "一级",
+      "city": "安康"
     },
     {
-      "name": "西安交通大学博物馆",
-      "normalized_name": "西安交通大学博物馆",
-      "city": "西安",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "陕西师范大学博物馆",
-      "normalized_name": "陕西师范大学博物馆",
-      "city": "西安",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "西安市非物质文化遗产博物馆",
-      "normalized_name": "西安市非物质文化遗产博物馆",
-      "city": "西安",
-      "level": "无级别",
-      "type": "综合"
-    },
-    {
-      "name": "大明宫遗址博物馆",
-      "normalized_name": "大明宫遗址博物馆",
-      "city": "西安",
-      "level": "三级",
-      "type": "历史"
-    },
-    {
-      "name": "西安关中民俗艺术博物院",
-      "normalized_name": "西安关中民俗艺术博物院",
-      "city": "西安",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "延安鲁艺文化园区",
-      "normalized_name": "延安鲁艺文化园区",
-      "city": "延安",
-      "level": "无级别",
-      "type": "历史"
-    },
-    {
-      "name": "黄帝陵管理局",
-      "normalized_name": "黄帝陵管理局",
-      "city": "延安",
-      "level": "无级别",
-      "type": "历史"
-    },
-    {
-      "name": "宝鸡周原博物院",
-      "normalized_name": "宝鸡周原博物院",
-      "city": "宝鸡",
-      "level": "二级",
-      "type": "历史"
-    },
-    {
-      "name": "昭陵博物馆",
-      "normalized_name": "昭陵博物馆",
-      "city": "咸阳",
-      "level": "二级",
-      "type": "历史"
-    },
-    {
-      "name": "秦咸阳宫遗址博物馆",
-      "normalized_name": "秦咸阳宫遗址博物馆",
-      "city": "咸阳",
-      "level": "无级别",
-      "type": "历史"
-    },
-    {
-      "name": "司马迁祠墓文物管理所",
-      "normalized_name": "司马迁祠墓文物管理所",
-      "city": "韩城",
-      "level": "无级别",
-      "type": "历史"
-    },
-    {
-      "name": "蒲城县博物馆",
-      "normalized_name": "蒲城县博物馆",
-      "city": "渭南",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "耀州窑博物馆",
-      "normalized_name": "耀州窑博物馆",
-      "city": "铜川",
-      "level": "二级",
-      "type": "历史"
-    },
-    {
-      "name": "药王山博物馆",
-      "normalized_name": "药王山博物馆",
-      "city": "铜川",
-      "level": "三级",
-      "type": "历史"
-    },
-    {
-      "name": "勉县武侯祠博物馆",
-      "normalized_name": "勉县武侯祠博物馆",
-      "city": "汉中",
-      "level": "三级",
-      "type": "历史"
-    },
-    {
-      "name": "张骞纪念馆",
-      "normalized_name": "张骞纪念馆",
-      "city": "汉中",
-      "level": "三级",
-      "type": "历史"
-    },
-    {
-      "name": "城固县博物馆",
-      "normalized_name": "城固县博物馆",
-      "city": "汉中",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "旬阳市博物馆",
-      "normalized_name": "旬阳市博物馆",
-      "city": "安康",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "神木市博物馆",
-      "normalized_name": "神木市博物馆",
-      "city": "榆林",
-      "level": "无级别",
-      "type": "综合"
-    },
-    {
-      "name": "靖边县博物馆",
-      "normalized_name": "靖边县博物馆",
-      "city": "榆林",
-      "level": "三级",
-      "type": "综合"
+      "name": "商洛博物馆",
+      "level": "一级",
+      "city": "商洛"
     }
   ],
   "uncertain": []

@@ -1,7 +1,52 @@
 {
   "province": "重庆",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 8,
+  "total_scraped": 2,
+  "matched": [
+    {
+      "name": "重庆中国三峡博物馆",
+      "level": "一级",
+      "city": "重庆",
+      "scraped_name": "重庆中国三峡博物馆",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "重庆自然博物馆",
+      "level": "一级",
+      "city": "重庆"
+    },
+    {
+      "name": "红岩革命历史博物馆",
+      "level": "一级",
+      "city": "重庆"
+    },
+    {
+      "name": "重庆工业博物馆",
+      "level": "一级",
+      "city": "重庆"
+    },
+    {
+      "name": "大足石刻博物馆",
+      "level": "一级",
+      "city": "重庆"
+    },
+    {
+      "name": "合川钓鱼城博物馆",
+      "level": "一级",
+      "city": "重庆"
+    },
+    {
+      "name": "聂荣臻元帅陈列馆",
+      "level": "一级",
+      "city": "重庆"
+    },
+    {
+      "name": "刘伯承同志纪念馆",
+      "level": "一级",
+      "city": "重庆"
+    }
+  ],
+  "uncertain": []
 }

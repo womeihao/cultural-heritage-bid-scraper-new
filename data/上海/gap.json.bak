@@ -1,7 +1,106 @@
 {
   "province": "上海",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 18,
+  "total_scraped": 5,
+  "matched": [
+    {
+      "name": "上海科技馆",
+      "level": "一级",
+      "city": "上海",
+      "scraped_name": "上海科技馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "上海自然博物馆",
+      "level": "一级",
+      "city": "上海",
+      "scraped_name": "上海自然博物馆（上海科技馆分馆）",
+      "confidence": 1.0
+    },
+    {
+      "name": "中国共产党第一次全国代表大会纪念馆",
+      "level": "一级",
+      "city": "上海",
+      "scraped_name": "中国共产党第一次全国代表大会纪念馆",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "上海博物馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "鲁迅纪念馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "龙华烈士纪念馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "上海当代艺术博物馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "中华艺术宫",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "上海航海博物馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "上海汽车博物馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "上海玻璃博物馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "陈云纪念馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "上海博物馆东馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "嘉定博物馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "松江博物馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "钱学森图书馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "中共二大会址纪念馆",
+      "level": "一级",
+      "city": "上海"
+    },
+    {
+      "name": "中共四大纪念馆",
+      "level": "一级",
+      "city": "上海"
+    }
+  ],
+  "uncertain": []
 }

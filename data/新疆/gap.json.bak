@@ -1,7 +1,39 @@
 {
   "province": "新疆",
+  "total": 6,
+  "total_scraped": 6,
   "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "gap": [
+    {
+      "name": "新疆维吾尔自治区博物馆",
+      "level": "一级",
+      "city": "乌鲁木齐"
+    },
+    {
+      "name": "吐鲁番博物馆",
+      "level": "一级",
+      "city": "吐鲁番"
+    },
+    {
+      "name": "伊犁哈萨克自治州博物馆",
+      "level": "一级",
+      "city": "伊犁"
+    },
+    {
+      "name": "阿克苏博物馆",
+      "level": "一级",
+      "city": "阿克苏"
+    },
+    {
+      "name": "新疆屯垦历史博物馆",
+      "level": "二级",
+      "city": "阿拉尔"
+    },
+    {
+      "name": "昌吉恐龙馆",
+      "level": "二级",
+      "city": "昌吉"
+    }
+  ],
+  "uncertain": []
 }
