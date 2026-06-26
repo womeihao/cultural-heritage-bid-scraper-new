@@ -1,7 +1,37 @@
 {
   "province": "甘肃",
-  "matched": [],
+  "total": 4,
+  "total_scraped": 4,
+  "matched": [
+    {
+      "name": "兰州大学",
+      "level": "",
+      "city": "",
+      "scraped_name": "兰州大学",
+      "confidence": 1.0
+    },
+    {
+      "name": "敦煌研究院",
+      "level": "",
+      "city": "",
+      "scraped_name": "敦煌研究院",
+      "confidence": 1.0
+    },
+    {
+      "name": "甘肃省博物馆",
+      "level": "",
+      "city": "",
+      "scraped_name": "甘肃省博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "甘肃简牍博物馆",
+      "level": "",
+      "city": "",
+      "scraped_name": "甘肃简牍博物馆",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }

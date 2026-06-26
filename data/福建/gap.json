@@ -1,7 +1,37 @@
 {
   "province": "福建",
-  "matched": [],
+  "total": 4,
+  "total_scraped": 4,
+  "matched": [
+    {
+      "name": "福建中医药大学",
+      "level": "",
+      "city": "",
+      "scraped_name": "福建中医药大学",
+      "confidence": 1.0
+    },
+    {
+      "name": "福建中国闽台缘博物馆",
+      "level": "",
+      "city": "泉州市",
+      "scraped_name": "福建中国闽台缘博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "福建博物院",
+      "level": "",
+      "city": "",
+      "scraped_name": "福建博物院",
+      "confidence": 1.0
+    },
+    {
+      "name": "福建民俗博物馆",
+      "level": "",
+      "city": "",
+      "scraped_name": "福建民俗博物馆",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }
