@@ -1,7 +1,51 @@
 {
   "province": "江西",
-  "matched": [],
+  "total": 6,
+  "total_scraped": 6,
+  "matched": [
+    {
+      "name": "安福县博物馆",
+      "level": "",
+      "city": "安福县",
+      "scraped_name": "安福县博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "宜春市博物馆",
+      "level": "",
+      "city": "市辖区",
+      "scraped_name": "宜春市博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "崇仁县博物馆",
+      "level": "",
+      "city": "崇仁县",
+      "scraped_name": "崇仁县博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "庐山博物馆",
+      "level": "",
+      "city": "",
+      "scraped_name": "庐山博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "江西客家博物院",
+      "level": "",
+      "city": "赣县",
+      "scraped_name": "江西客家博物院",
+      "confidence": 1.0
+    },
+    {
+      "name": "萍乡博物馆",
+      "level": "",
+      "city": "市辖区",
+      "scraped_name": "萍乡博物馆",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }
