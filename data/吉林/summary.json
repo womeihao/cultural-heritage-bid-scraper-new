@@ -25,7 +25,7 @@
       "amount": 0.0,
       "suppliers": 0,
       "city": "",
-      "level": "",
+      "level": "一级",
       "main_tags": [
         "智慧博物馆"
       ]
@@ -35,7 +35,7 @@
       "amount": 154.95,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "一级",
       "main_tags": [
         "数字归档",
         "数字保护"

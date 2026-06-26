@@ -1,7 +1,47 @@
 {
   "province": "吉林",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 7,
+  "total_scraped": 2,
+  "matched": [
+    {
+      "name": "伪满皇宫博物院",
+      "level": "一级",
+      "city": "长春",
+      "scraped_name": "伪满皇宫博物院",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "吉林省博物院",
+      "level": "一级",
+      "city": "长春"
+    },
+    {
+      "name": "长春电影制片厂博物馆",
+      "level": "一级",
+      "city": "长春"
+    },
+    {
+      "name": "吉林市博物馆",
+      "level": "一级",
+      "city": "吉林"
+    },
+    {
+      "name": "延边朝鲜族自治州博物馆",
+      "level": "一级",
+      "city": "延边"
+    },
+    {
+      "name": "长春地质宫博物馆",
+      "level": "二级",
+      "city": "长春"
+    },
+    {
+      "name": "四平战役纪念馆",
+      "level": "二级",
+      "city": "四平"
+    }
+  ],
+  "uncertain": []
 }

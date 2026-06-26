@@ -1,7 +1,92 @@
 {
   "province": "山东",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 16,
+  "total_scraped": 3,
+  "matched": [
+    {
+      "name": "山东博物馆",
+      "level": "一级",
+      "city": "济南",
+      "scraped_name": "山东博物馆",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "济南市博物馆",
+      "level": "一级",
+      "city": "济南"
+    },
+    {
+      "name": "青岛市博物馆",
+      "level": "一级",
+      "city": "青岛"
+    },
+    {
+      "name": "烟台市博物馆",
+      "level": "一级",
+      "city": "烟台"
+    },
+    {
+      "name": "潍坊市博物馆",
+      "level": "一级",
+      "city": "潍坊"
+    },
+    {
+      "name": "淄博市博物馆",
+      "level": "一级",
+      "city": "淄博"
+    },
+    {
+      "name": "曲阜孔子博物馆",
+      "level": "一级",
+      "city": "济宁"
+    },
+    {
+      "name": "临沂博物馆",
+      "level": "一级",
+      "city": "临沂"
+    },
+    {
+      "name": "枣庄市博物馆",
+      "level": "一级",
+      "city": "枣庄"
+    },
+    {
+      "name": "东营市博物馆",
+      "level": "一级",
+      "city": "东营"
+    },
+    {
+      "name": "济宁博物馆",
+      "level": "一级",
+      "city": "济宁"
+    },
+    {
+      "name": "泰安岱庙博物馆",
+      "level": "一级",
+      "city": "泰安"
+    },
+    {
+      "name": "威海市博物馆",
+      "level": "一级",
+      "city": "威海"
+    },
+    {
+      "name": "中国海军博物馆",
+      "level": "一级",
+      "city": "青岛"
+    },
+    {
+      "name": "青岛啤酒博物馆",
+      "level": "二级",
+      "city": "青岛"
+    },
+    {
+      "name": "张裕酒文化博物馆",
+      "level": "二级",
+      "city": "烟台"
+    }
+  ],
+  "uncertain": []
 }

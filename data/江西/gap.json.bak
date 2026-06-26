@@ -1,7 +1,44 @@
 {
   "province": "江西",
+  "total": 7,
+  "total_scraped": 6,
   "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "gap": [
+    {
+      "name": "江西省博物馆",
+      "level": "一级",
+      "city": "南昌"
+    },
+    {
+      "name": "南昌八一起义纪念馆",
+      "level": "一级",
+      "city": "南昌"
+    },
+    {
+      "name": "井冈山革命博物馆",
+      "level": "一级",
+      "city": "吉安"
+    },
+    {
+      "name": "瑞金中央革命根据地纪念馆",
+      "level": "一级",
+      "city": "赣州"
+    },
+    {
+      "name": "景德镇中国陶瓷博物馆",
+      "level": "一级",
+      "city": "景德镇"
+    },
+    {
+      "name": "抚州博物馆",
+      "level": "一级",
+      "city": "抚州"
+    },
+    {
+      "name": "赣州博物馆",
+      "level": "一级",
+      "city": "赣州"
+    }
+  ],
+  "uncertain": []
 }

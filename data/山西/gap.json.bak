@@ -1,7 +1,87 @@
 {
   "province": "山西",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 15,
+  "total_scraped": 13,
+  "matched": [
+    {
+      "name": "大同市博物馆",
+      "level": "一级",
+      "city": "大同",
+      "scraped_name": "大同市博物馆",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "山西博物院",
+      "level": "一级",
+      "city": "太原"
+    },
+    {
+      "name": "八路军太行纪念馆",
+      "level": "一级",
+      "city": "长治"
+    },
+    {
+      "name": "中国煤炭博物馆",
+      "level": "一级",
+      "city": "太原"
+    },
+    {
+      "name": "运城博物馆",
+      "level": "一级",
+      "city": "运城"
+    },
+    {
+      "name": "晋祠博物馆",
+      "level": "一级",
+      "city": "太原"
+    },
+    {
+      "name": "云冈石窟研究院",
+      "level": "一级",
+      "city": "大同"
+    },
+    {
+      "name": "永乐宫",
+      "level": "一级",
+      "city": "运城"
+    },
+    {
+      "name": "平遥古城博物馆",
+      "level": "一级",
+      "city": "晋中"
+    },
+    {
+      "name": "祁县乔家大院民俗博物馆",
+      "level": "一级",
+      "city": "晋中"
+    },
+    {
+      "name": "临汾市博物馆",
+      "level": "一级",
+      "city": "临汾"
+    },
+    {
+      "name": "长治市博物馆",
+      "level": "一级",
+      "city": "长治"
+    },
+    {
+      "name": "山西青铜博物馆",
+      "level": "一级",
+      "city": "太原"
+    },
+    {
+      "name": "河边民俗博物馆",
+      "level": "二级",
+      "city": "忻州"
+    },
+    {
+      "name": "榆社化石博物馆",
+      "level": "二级",
+      "city": "晋中"
+    }
+  ],
+  "uncertain": []
 }

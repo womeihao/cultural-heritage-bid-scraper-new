@@ -37,7 +37,7 @@
       "amount": 0.0,
       "suppliers": 0,
       "city": "安福县",
-      "level": "",
+      "level": "未定级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -48,7 +48,7 @@
       "amount": 190.92,
       "suppliers": 1,
       "city": "市辖区",
-      "level": "",
+      "level": "二级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -59,7 +59,7 @@
       "amount": 48.5,
       "suppliers": 1,
       "city": "崇仁县",
-      "level": "",
+      "level": "未定级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -70,7 +70,7 @@
       "amount": 4336.67,
       "suppliers": 1,
       "city": "",
-      "level": "",
+      "level": "一级",
       "main_tags": [
         "智慧博物馆"
       ]
@@ -80,7 +80,7 @@
       "amount": 138.5,
       "suppliers": 1,
       "city": "赣县",
-      "level": "",
+      "level": "二级",
       "main_tags": [
         "数字归档",
         "数字保护"
@@ -91,7 +91,7 @@
       "amount": 215.8,
       "suppliers": 1,
       "city": "市辖区",
-      "level": "",
+      "level": "一级",
       "main_tags": [
         "数字归档",
         "数字保护"

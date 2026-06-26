@@ -1,343 +1,128 @@
 {
   "province": "江苏",
-  "generated_at": "2026-06-25T13:29:16.058125",
+  "total": 24,
+  "total_scraped": 1,
   "matched": [],
   "gap": [
     {
       "name": "南京博物院",
-      "normalized_name": "南京博物院",
-      "city": "南京",
       "level": "一级",
-      "type": "综合"
-    },
-    {
-      "name": "南京市博物总馆",
-      "normalized_name": "南京市博物总馆",
-      "city": "南京",
-      "level": "一级",
-      "type": "综合"
+      "city": "南京"
     },
     {
       "name": "苏州博物馆",
-      "normalized_name": "苏州博物馆",
-      "city": "苏州",
       "level": "一级",
-      "type": "综合"
+      "city": "苏州"
     },
     {
       "name": "扬州博物馆",
-      "normalized_name": "扬州博物馆",
-      "city": "扬州",
       "level": "一级",
-      "type": "综合"
-    },
-    {
-      "name": "扬州中国大运河博物馆",
-      "normalized_name": "扬州中国大运河博物馆",
-      "city": "扬州",
-      "level": "一级",
-      "type": "历史"
+      "city": "扬州"
     },
     {
       "name": "徐州博物馆",
-      "normalized_name": "徐州博物馆",
-      "city": "徐州",
       "level": "一级",
-      "type": "综合"
+      "city": "徐州"
     },
     {
-      "name": "常州博物馆",
-      "normalized_name": "常州博物馆",
-      "city": "常州",
+      "name": "南京中国近代史遗址博物馆",
       "level": "一级",
-      "type": "综合"
+      "city": "南京"
     },
     {
-      "name": "南通博物苑",
-      "normalized_name": "南通博物苑",
-      "city": "南通",
+      "name": "雨花台烈士纪念馆",
       "level": "一级",
-      "type": "综合"
-    },
-    {
-      "name": "无锡博物院",
-      "normalized_name": "无锡博物院",
-      "city": "无锡",
-      "level": "二级",
-      "type": "综合"
-    },
-    {
-      "name": "镇江博物馆",
-      "normalized_name": "镇江博物馆",
-      "city": "镇江",
-      "level": "二级",
-      "type": "综合"
-    },
-    {
-      "name": "连云港市博物馆",
-      "normalized_name": "连云港市博物馆",
-      "city": "连云港",
-      "level": "二级",
-      "type": "综合"
-    },
-    {
-      "name": "淮安市博物馆",
-      "normalized_name": "淮安市博物馆",
-      "city": "淮安",
-      "level": "二级",
-      "type": "综合"
-    },
-    {
-      "name": "盐城中国海盐博物馆",
-      "normalized_name": "盐城中国海盐博物馆",
-      "city": "盐城",
-      "level": "二级",
-      "type": "历史"
-    },
-    {
-      "name": "泰州市博物馆",
-      "normalized_name": "泰州市博物馆",
-      "city": "泰州",
-      "level": "二级",
-      "type": "综合"
-    },
-    {
-      "name": "宿迁市博物馆",
-      "normalized_name": "宿迁市博物馆",
-      "city": "宿迁",
-      "level": "三级",
-      "type": "综合"
+      "city": "南京"
     },
     {
       "name": "侵华日军南京大屠杀遇难同胞纪念馆",
-      "normalized_name": "侵华日军南京大屠杀遇难同胞纪念馆",
-      "city": "南京",
       "level": "一级",
-      "type": "历史"
+      "city": "南京"
     },
     {
-      "name": "南京中国科举博物馆",
-      "normalized_name": "南京中国科举博物馆",
-      "city": "南京",
-      "level": "二级",
-      "type": "历史"
+      "name": "无锡博物院",
+      "level": "一级",
+      "city": "无锡"
     },
     {
-      "name": "南京城墙博物馆",
-      "normalized_name": "南京城墙博物馆",
-      "city": "南京",
-      "level": "三级",
-      "type": "历史"
+      "name": "常州博物馆",
+      "level": "一级",
+      "city": "常州"
     },
     {
-      "name": "南京云锦博物馆",
-      "normalized_name": "南京云锦博物馆",
-      "city": "南京",
-      "level": "三级",
-      "type": "艺术"
+      "name": "镇江博物馆",
+      "level": "一级",
+      "city": "镇江"
     },
     {
-      "name": "南京古生物博物馆",
-      "normalized_name": "南京古生物博物馆",
-      "city": "南京",
-      "level": "二级",
-      "type": "自然科学"
+      "name": "南通博物苑",
+      "level": "一级",
+      "city": "南通"
+    },
+    {
+      "name": "连云港市博物馆",
+      "level": "一级",
+      "city": "连云港"
+    },
+    {
+      "name": "盐城中国海盐博物馆",
+      "level": "一级",
+      "city": "盐城"
+    },
+    {
+      "name": "淮安周恩来故里景区",
+      "level": "一级",
+      "city": "淮安"
+    },
+    {
+      "name": "泰州博物馆",
+      "level": "一级",
+      "city": "泰州"
+    },
+    {
+      "name": "宿迁市博物馆",
+      "level": "一级",
+      "city": "宿迁"
     },
     {
       "name": "苏州丝绸博物馆",
-      "normalized_name": "苏州丝绸博物馆",
-      "city": "苏州",
-      "level": "三级",
-      "type": "艺术"
+      "level": "一级",
+      "city": "苏州"
     },
     {
-      "name": "苏州碑刻博物馆",
-      "normalized_name": "苏州碑刻博物馆",
-      "city": "苏州",
-      "level": "三级",
-      "type": "艺术"
-    },
-    {
-      "name": "苏州戏曲博物馆",
-      "normalized_name": "苏州戏曲博物馆",
-      "city": "苏州",
-      "level": "三级",
-      "type": "艺术"
+      "name": "南京古生物博物馆",
+      "level": "一级",
+      "city": "南京"
     },
     {
       "name": "苏州园林博物馆",
-      "normalized_name": "苏州园林博物馆",
-      "city": "苏州",
-      "level": "二级",
-      "type": "综合"
+      "level": "一级",
+      "city": "苏州"
     },
     {
-      "name": "常熟博物馆",
-      "normalized_name": "常熟博物馆",
-      "city": "苏州",
-      "level": "二级",
-      "type": "综合"
+      "name": "南京地质博物馆",
+      "level": "一级",
+      "city": "南京"
     },
     {
-      "name": "吴江博物馆",
-      "normalized_name": "吴江博物馆",
-      "city": "苏州",
-      "level": "三级",
-      "type": "综合"
+      "name": "扬州中国大运河博物馆",
+      "level": "一级",
+      "city": "扬州"
     },
     {
-      "name": "昆山博物馆",
-      "normalized_name": "昆山博物馆",
-      "city": "苏州",
-      "level": "三级",
-      "type": "综合"
+      "name": "新四军黄桥战役纪念馆",
+      "level": "一级",
+      "city": "泰州"
     },
     {
-      "name": "江阴市博物馆",
-      "normalized_name": "江阴市博物馆",
-      "city": "无锡",
-      "level": "二级",
-      "type": "综合"
+      "name": "瞿秋白纪念馆",
+      "level": "一级",
+      "city": "常州"
     },
     {
-      "name": "宜兴市博物馆",
-      "normalized_name": "宜兴市博物馆",
-      "city": "无锡",
-      "level": "二级",
-      "type": "综合"
-    },
-    {
-      "name": "太仓市博物馆",
-      "normalized_name": "太仓市博物馆",
-      "city": "苏州",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "如皋市博物馆",
-      "normalized_name": "如皋市博物馆",
-      "city": "南通",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "海安市博物馆",
-      "normalized_name": "海安市博物馆",
-      "city": "南通",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "启东市博物馆",
-      "normalized_name": "启东市博物馆",
-      "city": "南通",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "仪征市博物馆",
-      "normalized_name": "仪征市博物馆",
-      "city": "扬州",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "高邮市博物馆",
-      "normalized_name": "高邮市博物馆",
-      "city": "扬州",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "兴化市博物馆",
-      "normalized_name": "兴化市博物馆",
-      "city": "泰州",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "泰兴市博物馆",
-      "normalized_name": "泰兴市博物馆",
-      "city": "泰州",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "盱眙县博物馆",
-      "normalized_name": "盱眙县博物馆",
-      "city": "淮安",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "新沂市博物馆",
-      "normalized_name": "新沂市博物馆",
-      "city": "徐州",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "邳州市博物馆",
-      "normalized_name": "邳州市博物馆",
-      "city": "徐州",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "丹阳市博物馆",
-      "normalized_name": "丹阳市博物馆",
-      "city": "镇江",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "句容市博物馆",
-      "normalized_name": "句容市博物馆",
-      "city": "镇江",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "溧阳市博物馆",
-      "normalized_name": "溧阳市博物馆",
-      "city": "常州",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "南京太平天国历史博物馆",
-      "normalized_name": "南京太平天国历史博物馆",
-      "city": "南京",
-      "level": "二级",
-      "type": "历史"
-    },
-    {
-      "name": "南京市江宁区博物馆",
-      "normalized_name": "南京市江宁区博物馆",
-      "city": "南京",
-      "level": "三级",
-      "type": "综合"
-    },
-    {
-      "name": "明孝陵博物馆",
-      "normalized_name": "明孝陵博物馆",
-      "city": "南京",
-      "level": "三级",
-      "type": "历史"
-    },
-    {
-      "name": "中国近代史遗址博物馆(南京总统府)",
-      "normalized_name": "中国近代史遗址博物馆",
-      "city": "南京",
-      "level": "二级",
-      "type": "历史"
-    },
-    {
-      "name": "南京抗日航空烈士纪念馆",
-      "normalized_name": "南京抗日航空烈士纪念馆",
-      "city": "南京",
-      "level": "三级",
-      "type": "历史"
+      "name": "苏州革命博物馆",
+      "level": "一级",
+      "city": "苏州"
     }
   ],
   "uncertain": []
