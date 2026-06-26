@@ -1,7 +1,41 @@
 {
   "province": "广西",
+  "total": 6,
+  "total_scraped": 6,
   "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "gap": [
+    {
+      "name": "广西壮族自治区博物馆",
+      "level": "一级",
+      "city": "南宁"
+    },
+    {
+      "name": "桂林博物馆",
+      "level": "一级",
+      "city": "桂林"
+    },
+    {
+      "name": "北海市博物馆",
+      "level": "一级",
+      "city": "北海"
+    },
+    {
+      "name": "百色起义纪念馆",
+      "level": "一级",
+      "city": "百色"
+    },
+    {
+      "name": "河池博物馆",
+      "level": "一级",
+      "city": "河池"
+    }
+  ],
+  "uncertain": [
+    {
+      "name": "柳州博物馆",
+      "level": "一级",
+      "scraped_name": "柳州市博物馆",
+      "confidence": 0.5
+    }
+  ]
 }

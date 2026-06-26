@@ -1,7 +1,67 @@
 {
   "province": "河北",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 11,
+  "total_scraped": 1,
+  "matched": [
+    {
+      "name": "河北博物院",
+      "level": "一级",
+      "city": "石家庄",
+      "scraped_name": "河北博物院",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "西柏坡纪念馆",
+      "level": "一级",
+      "city": "石家庄"
+    },
+    {
+      "name": "邯郸市博物馆",
+      "level": "一级",
+      "city": "邯郸"
+    },
+    {
+      "name": "乐亭李大钊纪念馆",
+      "level": "一级",
+      "city": "唐山"
+    },
+    {
+      "name": "唐山博物馆",
+      "level": "一级",
+      "city": "唐山"
+    },
+    {
+      "name": "山海关中国长城博物馆",
+      "level": "一级",
+      "city": "秦皇岛"
+    },
+    {
+      "name": "定州博物馆",
+      "level": "一级",
+      "city": "定州"
+    },
+    {
+      "name": "承德避暑山庄博物院",
+      "level": "一级",
+      "city": "承德"
+    },
+    {
+      "name": "保定直隶总督署博物馆",
+      "level": "二级",
+      "city": "保定"
+    },
+    {
+      "name": "磁州窑博物馆",
+      "level": "二级",
+      "city": "邯郸"
+    },
+    {
+      "name": "蔚县博物馆",
+      "level": "二级",
+      "city": "张家口"
+    }
+  ],
+  "uncertain": []
 }

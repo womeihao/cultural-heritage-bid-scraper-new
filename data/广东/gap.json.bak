@@ -1,7 +1,92 @@
 {
   "province": "广东",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 16,
+  "total_scraped": 3,
+  "matched": [
+    {
+      "name": "广东省博物馆",
+      "level": "一级",
+      "city": "广州",
+      "scraped_name": "广东省博物馆（广州鲁迅纪念馆）",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "广州博物馆",
+      "level": "一级",
+      "city": "广州"
+    },
+    {
+      "name": "深圳博物馆",
+      "level": "一级",
+      "city": "深圳"
+    },
+    {
+      "name": "珠海博物馆",
+      "level": "一级",
+      "city": "珠海"
+    },
+    {
+      "name": "汕头博物馆",
+      "level": "一级",
+      "city": "汕头"
+    },
+    {
+      "name": "佛山祖庙博物馆",
+      "level": "一级",
+      "city": "佛山"
+    },
+    {
+      "name": "韶关市博物馆",
+      "level": "一级",
+      "city": "韶关"
+    },
+    {
+      "name": "梅州中国客家博物馆",
+      "level": "一级",
+      "city": "梅州"
+    },
+    {
+      "name": "惠州博物馆",
+      "level": "一级",
+      "city": "惠州"
+    },
+    {
+      "name": "东莞博物馆",
+      "level": "一级",
+      "city": "东莞"
+    },
+    {
+      "name": "中山博物馆",
+      "level": "一级",
+      "city": "中山"
+    },
+    {
+      "name": "江门五邑华侨华人博物馆",
+      "level": "一级",
+      "city": "江门"
+    },
+    {
+      "name": "湛江博物馆",
+      "level": "一级",
+      "city": "湛江"
+    },
+    {
+      "name": "茂名博物馆",
+      "level": "一级",
+      "city": "茂名"
+    },
+    {
+      "name": "肇庆博物馆",
+      "level": "一级",
+      "city": "肇庆"
+    },
+    {
+      "name": "鸦片战争博物馆",
+      "level": "一级",
+      "city": "东莞"
+    }
+  ],
+  "uncertain": []
 }

@@ -1,7 +1,42 @@
 {
   "province": "黑龙江",
-  "matched": [],
-  "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "total": 6,
+  "total_scraped": 2,
+  "matched": [
+    {
+      "name": "黑龙江省博物馆",
+      "level": "一级",
+      "city": "哈尔滨",
+      "scraped_name": "黑龙江省博物馆",
+      "confidence": 1.0
+    }
+  ],
+  "gap": [
+    {
+      "name": "黑龙江省民族博物馆",
+      "level": "一级",
+      "city": "哈尔滨"
+    },
+    {
+      "name": "大庆博物馆",
+      "level": "一级",
+      "city": "大庆"
+    },
+    {
+      "name": "东北烈士纪念馆",
+      "level": "一级",
+      "city": "哈尔滨"
+    },
+    {
+      "name": "哈尔滨市建筑艺术馆",
+      "level": "二级",
+      "city": "哈尔滨"
+    },
+    {
+      "name": "齐齐哈尔市博物馆",
+      "level": "二级",
+      "city": "齐齐哈尔"
+    }
+  ],
+  "uncertain": []
 }

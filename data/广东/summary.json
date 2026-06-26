@@ -29,7 +29,7 @@
       "amount": 0.0,
       "suppliers": 0,
       "city": "市辖区",
-      "level": "",
+      "level": "一级",
       "main_tags": []
     },
     "广东省博物馆（广州鲁迅纪念馆）": {
@@ -37,7 +37,7 @@
       "amount": 85.1,
       "suppliers": 1,
       "city": "广州市",
-      "level": "",
+      "level": "一级",
       "main_tags": [
         "数字归档",
         "数字保护"
