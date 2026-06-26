@@ -1,7 +1,44 @@
 {
   "province": "贵州",
-  "matched": [],
+  "total": 5,
+  "total_scraped": 5,
+  "matched": [
+    {
+      "name": "务川仡佬族苗族自治县文化旅游局",
+      "level": "",
+      "city": "",
+      "scraped_name": "务川仡佬族苗族自治县文化旅游局",
+      "confidence": 1.0
+    },
+    {
+      "name": "贵州三线建设博物馆",
+      "level": "",
+      "city": "钟山区",
+      "scraped_name": "贵州三线建设博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "贵州省地质博物馆（贵州省地质资料馆）",
+      "level": "",
+      "city": "",
+      "scraped_name": "贵州省地质博物馆（贵州省地质资料馆）",
+      "confidence": 1.0
+    },
+    {
+      "name": "铜仁市万山区文体广电旅游局",
+      "level": "",
+      "city": "",
+      "scraped_name": "铜仁市万山区文体广电旅游局",
+      "confidence": 1.0
+    },
+    {
+      "name": "铜仁市文体广电旅游局",
+      "level": "",
+      "city": "",
+      "scraped_name": "铜仁市文体广电旅游局",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }

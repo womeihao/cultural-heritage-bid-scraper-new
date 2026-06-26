@@ -1,7 +1,16 @@
 {
   "province": "河南",
-  "matched": [],
+  "total": 1,
+  "total_scraped": 1,
+  "matched": [
+    {
+      "name": "洛阳市偃师区文物局",
+      "level": "",
+      "city": "",
+      "scraped_name": "洛阳市偃师区文物局",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }

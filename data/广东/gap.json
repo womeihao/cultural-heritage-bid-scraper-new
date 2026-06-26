@@ -1,7 +1,30 @@
 {
   "province": "广东",
-  "matched": [],
+  "total": 3,
+  "total_scraped": 3,
+  "matched": [
+    {
+      "name": "广东民间工艺博物馆",
+      "level": "",
+      "city": "市辖区",
+      "scraped_name": "广东民间工艺博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "广东省博物馆（广州鲁迅纪念馆）",
+      "level": "",
+      "city": "广州市",
+      "scraped_name": "广东省博物馆（广州鲁迅纪念馆）",
+      "confidence": 1.0
+    },
+    {
+      "name": "广东省文化和旅游厅",
+      "level": "",
+      "city": "",
+      "scraped_name": "广东省文化和旅游厅",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }

@@ -1,7 +1,51 @@
 {
   "province": "广西",
-  "matched": [],
+  "total": 6,
+  "total_scraped": 6,
+  "matched": [
+    {
+      "name": "广西文物保护与考古研究所",
+      "level": "",
+      "city": "广西壮族自治区",
+      "scraped_name": "广西文物保护与考古研究所",
+      "confidence": 1.0
+    },
+    {
+      "name": "广西艺术学院",
+      "level": "",
+      "city": "广西壮族自治区",
+      "scraped_name": "广西艺术学院",
+      "confidence": 1.0
+    },
+    {
+      "name": "来宾市博物馆",
+      "level": "",
+      "city": "市辖区",
+      "scraped_name": "来宾市博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "柳州工业博物馆",
+      "level": "",
+      "city": "广西壮族自治区",
+      "scraped_name": "柳州工业博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "柳州市博物馆",
+      "level": "",
+      "city": "广西壮族自治区",
+      "scraped_name": "柳州市博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "贵港市博物馆",
+      "level": "",
+      "city": "广西壮族自治区",
+      "scraped_name": "贵港市博物馆",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }

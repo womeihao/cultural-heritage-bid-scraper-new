@@ -1,7 +1,16 @@
 {
   "province": "河北",
-  "matched": [],
+  "total": 1,
+  "total_scraped": 1,
+  "matched": [
+    {
+      "name": "河北博物院",
+      "level": "",
+      "city": "",
+      "scraped_name": "河北博物院",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }

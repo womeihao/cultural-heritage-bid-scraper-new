@@ -1,7 +1,23 @@
 {
   "province": "黑龙江",
-  "matched": [],
+  "total": 2,
+  "total_scraped": 2,
+  "matched": [
+    {
+      "name": "黑龙江大学",
+      "level": "",
+      "city": "",
+      "scraped_name": "黑龙江大学",
+      "confidence": 1.0
+    },
+    {
+      "name": "黑龙江省博物馆",
+      "level": "",
+      "city": "",
+      "scraped_name": "黑龙江省博物馆",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }
