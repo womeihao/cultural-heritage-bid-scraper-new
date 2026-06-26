@@ -1,321 +1,259 @@
 {
   "province": "四川",
-  "generated_at": "2026-06-25T13:29:16.005031",
+  "total": 48,
+  "total_scraped": 5,
   "matched": [
     {
       "name": "四川博物院",
-      "normalized_name": "四川博物院",
-      "city": "成都",
-      "level": "一级",
-      "type": "综合",
-      "match": {
-        "level": 1,
-        "museum": "四川博物院",
-        "buyer": "四川博物院",
-        "confidence": "high"
-      }
+      "level": "",
+      "city": "",
+      "scraped_name": "四川博物院",
+      "confidence": 1.0
     },
     {
-      "name": "广汉三星堆博物馆",
-      "normalized_name": "广汉三星堆博物馆",
-      "city": "德阳",
-      "level": "一级",
-      "type": "历史",
-      "match": {
-        "level": 3,
-        "museum": "广汉三星堆博物馆",
-        "buyer": "四川广汉三星堆博物馆",
-        "confidence": "medium"
-      }
+      "name": "四川大学",
+      "level": "",
+      "city": "",
+      "scraped_name": "四川大学",
+      "confidence": 1.0
+    },
+    {
+      "name": "四川广汉三星堆博物馆",
+      "level": "",
+      "city": "广汉市",
+      "scraped_name": "四川广汉三星堆博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "四川省夕佳山民俗博物馆",
+      "level": "",
+      "city": "江安县",
+      "scraped_name": "四川省夕佳山民俗博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "四川省文物考古研究院（三星堆研究院、四川石窟寺保护研究院）",
+      "level": "",
+      "city": "",
+      "scraped_name": "四川省文物考古研究院（三星堆研究院、四川石窟寺保护研究院）",
+      "confidence": 1.0
     }
   ],
   "gap": [
     {
-      "name": "成都博物馆",
-      "normalized_name": "成都博物馆",
-      "city": "成都",
-      "level": "一级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "成都武侯祠博物馆",
-      "normalized_name": "成都武侯祠博物馆",
-      "city": "成都",
-      "level": "一级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "成都杜甫草堂博物馆",
-      "normalized_name": "成都杜甫草堂博物馆",
-      "city": "成都",
-      "level": "一级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "金沙遗址博物馆",
-      "normalized_name": "金沙遗址博物馆",
-      "city": "成都",
-      "level": "一级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "自贡恐龙博物馆",
-      "normalized_name": "自贡恐龙博物馆",
-      "city": "自贡",
-      "level": "一级",
-      "type": "自然科学"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "自贡市盐业历史博物馆",
-      "normalized_name": "自贡市盐业历史博物馆",
-      "city": "自贡",
-      "level": "二级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "绵阳市博物馆",
-      "normalized_name": "绵阳市博物馆",
-      "city": "绵阳",
-      "level": "二级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "泸州市博物馆",
-      "normalized_name": "泸州市博物馆",
-      "city": "泸州",
-      "level": "二级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "宜宾市博物院",
-      "normalized_name": "宜宾市博物院",
-      "city": "宜宾",
-      "level": "二级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "南充市博物馆",
-      "normalized_name": "南充市博物馆",
-      "city": "南充",
-      "level": "三级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "达州博物馆",
-      "normalized_name": "达州博物馆",
-      "city": "达州",
-      "level": "二级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "凉山彝族自治州博物院",
-      "normalized_name": "凉山彝族自治州博物院",
-      "city": "凉山",
-      "level": "二级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "凉山彝族奴隶社会博物馆",
-      "normalized_name": "凉山彝族奴隶社会博物馆",
-      "city": "凉山",
-      "level": "三级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "乐山大佛博物馆",
-      "normalized_name": "乐山大佛博物馆",
-      "city": "乐山",
-      "level": "二级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "峨眉山博物馆",
-      "normalized_name": "峨眉山博物馆",
-      "city": "乐山",
-      "level": "三级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "邓小平故里管理局",
-      "normalized_name": "邓小平故里管理局",
-      "city": "广安",
-      "level": "二级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "朱德同志故居纪念馆",
-      "normalized_name": "朱德同志故居纪念馆",
-      "city": "南充",
-      "level": "二级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "成都永陵博物馆",
-      "normalized_name": "成都永陵博物馆",
-      "city": "成都",
-      "level": "二级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "成都川剧艺术博物馆",
-      "normalized_name": "成都川剧艺术博物馆",
-      "city": "成都",
-      "level": "无级别",
-      "type": "艺术"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "四川大学博物馆",
-      "normalized_name": "四川大学博物馆",
-      "city": "成都",
-      "level": "二级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "成都理工大学博物馆",
-      "normalized_name": "成都理工大学博物馆",
-      "city": "成都",
-      "level": "三级",
-      "type": "自然科学"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "眉山三苏祠博物馆",
-      "normalized_name": "眉山三苏祠博物馆",
-      "city": "眉山",
-      "level": "二级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "雅安市博物馆",
-      "normalized_name": "雅安市博物馆",
-      "city": "雅安",
-      "level": "三级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "巴中市博物馆",
-      "normalized_name": "巴中市博物馆",
-      "city": "巴中",
-      "level": "三级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "遂宁市博物馆",
-      "normalized_name": "遂宁市博物馆",
-      "city": "遂宁",
-      "level": "二级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "内江市博物馆",
-      "normalized_name": "内江市博物馆",
-      "city": "内江",
-      "level": "三级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "广元市博物馆",
-      "normalized_name": "广元市博物馆",
-      "city": "广元",
-      "level": "三级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "德阳市博物馆",
-      "normalized_name": "德阳市博物馆",
-      "city": "德阳",
-      "level": "二级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "建川博物馆",
-      "normalized_name": "建川博物馆",
-      "city": "成都",
-      "level": "二级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "成都蜀锦织绣博物馆",
-      "normalized_name": "成都蜀锦织绣博物馆",
-      "city": "成都",
-      "level": "三级",
-      "type": "艺术"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "川陕革命根据地博物馆",
-      "normalized_name": "川陕革命根据地博物馆",
-      "city": "巴中",
-      "level": "二级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "阆中市博物馆",
-      "normalized_name": "阆中市博物馆",
-      "city": "南充",
-      "level": "三级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "邛崃市博物馆",
-      "normalized_name": "邛崃市博物馆",
-      "city": "成都",
-      "level": "三级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "攀枝花中国三线建设博物馆",
-      "normalized_name": "攀枝花中国三线建设博物馆",
-      "city": "攀枝花",
-      "level": "二级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "汶川博物馆",
-      "normalized_name": "汶川博物馆",
-      "city": "阿坝",
-      "level": "三级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "甘孜藏族自治州博物馆",
-      "normalized_name": "甘孜藏族自治州博物馆",
-      "city": "甘孜",
-      "level": "三级",
-      "type": "综合"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "四川宋瓷博物馆",
-      "normalized_name": "四川宋瓷博物馆",
-      "city": "遂宁",
-      "level": "三级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "成都华希昆虫博物馆",
-      "normalized_name": "成都华希昆虫博物馆",
-      "city": "成都",
-      "level": "无级别",
-      "type": "自然科学"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "黄继光纪念馆",
-      "normalized_name": "黄继光纪念馆",
-      "city": "德阳",
-      "level": "三级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "赵一曼纪念馆",
-      "normalized_name": "赵一曼纪念馆",
-      "city": "宜宾",
-      "level": "三级",
-      "type": "历史"
+      "name": "",
+      "level": "",
+      "city": ""
     },
     {
-      "name": "自贡彩灯博物馆",
-      "normalized_name": "自贡彩灯博物馆",
-      "city": "自贡",
-      "level": "三级",
-      "type": "艺术"
+      "name": "",
+      "level": "",
+      "city": ""
+    },
+    {
+      "name": "",
+      "level": "",
+      "city": ""
+    },
+    {
+      "name": "",
+      "level": "",
+      "city": ""
     }
   ],
   "uncertain": []

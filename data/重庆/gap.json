@@ -1,7 +1,23 @@
 {
   "province": "重庆",
-  "matched": [],
+  "total": 2,
+  "total_scraped": 2,
+  "matched": [
+    {
+      "name": "重庆中国三峡博物馆",
+      "level": "",
+      "city": "重庆市",
+      "scraped_name": "重庆中国三峡博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "重庆红岩联线文化发展管理中心",
+      "level": "",
+      "city": "重庆市",
+      "scraped_name": "重庆红岩联线文化发展管理中心",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }

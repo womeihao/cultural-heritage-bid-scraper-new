@@ -1,7 +1,44 @@
 {
   "province": "上海",
-  "matched": [],
+  "total": 5,
+  "total_scraped": 5,
+  "matched": [
+    {
+      "name": "上海外国语大学",
+      "level": "",
+      "city": "上海市",
+      "scraped_name": "上海外国语大学",
+      "confidence": 1.0
+    },
+    {
+      "name": "上海科技馆",
+      "level": "",
+      "city": "上海市",
+      "scraped_name": "上海科技馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "上海自然博物馆（上海科技馆分馆）",
+      "level": "",
+      "city": "上海市",
+      "scraped_name": "上海自然博物馆（上海科技馆分馆）",
+      "confidence": 1.0
+    },
+    {
+      "name": "中国共产党第一次全国代表大会纪念馆",
+      "level": "",
+      "city": "上海市",
+      "scraped_name": "中国共产党第一次全国代表大会纪念馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "奉贤区博物馆",
+      "level": "",
+      "city": "上海市",
+      "scraped_name": "奉贤区博物馆",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }

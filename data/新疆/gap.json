@@ -1,7 +1,51 @@
 {
   "province": "新疆",
-  "matched": [],
+  "total": 6,
+  "total_scraped": 6,
+  "matched": [
+    {
+      "name": "克孜勒苏柯尔克孜自治州文化体育广播电视和旅游局（克孜勒苏柯尔克孜自治州文物局）",
+      "level": "",
+      "city": "新疆维吾尔自治区",
+      "scraped_name": "克孜勒苏柯尔克孜自治州文化体育广播电视和旅游局（克孜勒苏柯尔克孜自治州文物局）",
+      "confidence": 1.0
+    },
+    {
+      "name": "塔城地区博物馆",
+      "level": "",
+      "city": "新疆维吾尔自治区",
+      "scraped_name": "塔城地区博物馆",
+      "confidence": 1.0
+    },
+    {
+      "name": "库车市文化体育广播电视和旅游局",
+      "level": "",
+      "city": "新疆维吾尔自治区",
+      "scraped_name": "库车市文化体育广播电视和旅游局",
+      "confidence": 1.0
+    },
+    {
+      "name": "新疆维吾尔自治区克孜尔石窟研究所",
+      "level": "",
+      "city": "新疆维吾尔自治区",
+      "scraped_name": "新疆维吾尔自治区克孜尔石窟研究所",
+      "confidence": 1.0
+    },
+    {
+      "name": "新疆维吾尔自治区文物考古研究所",
+      "level": "",
+      "city": "新疆维吾尔自治区",
+      "scraped_name": "新疆维吾尔自治区文物考古研究所",
+      "confidence": 1.0
+    },
+    {
+      "name": "昌吉回族自治州文博院（昌吉回族自治州博物馆、北庭研究院）",
+      "level": "",
+      "city": "新疆维吾尔自治区",
+      "scraped_name": "昌吉回族自治州文博院（昌吉回族自治州博物馆、北庭研究院）",
+      "confidence": 1.0
+    }
+  ],
   "gap": [],
-  "uncertain": [],
-  "note": "无博物馆名录数据"
+  "uncertain": []
 }
